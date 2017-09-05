@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyNoteTypesCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyNoteTypesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyNoteTypesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyNoteTypesGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType[] companyNoteTypesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Model\NoteType[] companyNoteTypesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType[]**](../Model/NoteType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\NoteType[]**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyNoteTypesIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType companyNoteTypesIdGet($id)
+> \Spinen\ConnectWise\Clients\Company\Model\NoteType companyNoteTypesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/NoteType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyNoteTypesIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType companyNoteTypesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Model\NoteType companyNoteTypesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyNoteTypesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyNoteTypesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/NoteType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyNoteTypesIdPut**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType companyNoteTypesIdPut($id, $note_type)
+> \Spinen\ConnectWise\Clients\Company\Model\NoteType companyNoteTypesIdPut($id, $note_type)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyNoteTypesApi();
 $id = 56; // int | 
-$note_type = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType | 
+$note_type = new \Spinen\ConnectWise\Clients\Company\Model\NoteType(); // \Spinen\ConnectWise\Clients\Company\Model\NoteType | 
 
 try {
     $result = $api_instance->companyNoteTypesIdPut($id, $note_type);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **note_type** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType.md)|  |
+ **note_type** | [**\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/\Spinen\ConnectWise\Clients\Company\Model\NoteType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/NoteType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyNoteTypesPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType companyNoteTypesPost($note_type)
+> \Spinen\ConnectWise\Clients\Company\Model\NoteType companyNoteTypesPost($note_type)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyNoteTypesApi();
-$note_type = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType | 
+$note_type = new \Spinen\ConnectWise\Clients\Company\Model\NoteType(); // \Spinen\ConnectWise\Clients\Company\Model\NoteType | 
 
 try {
     $result = $api_instance->companyNoteTypesPost($note_type);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **note_type** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType.md)|  |
+ **note_type** | [**\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/\Spinen\ConnectWise\Clients\Company\Model\NoteType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/NoteType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 

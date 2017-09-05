@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyConfigurationsCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyConfigurationsCountGet($conditions, $managed_identifier)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyConfigurationsCountGet($conditions, $managed_identifier)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration[] companyConfigurationsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size, $managed_identifier)
+> \Spinen\ConnectWise\Clients\Company\Model\Configuration[] companyConfigurationsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size, $managed_identifier)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration[]**](../Model/Configuration.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Configuration[]**](../Model/Configuration.md)
 
 ### Authorization
 
@@ -175,7 +175,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration companyConfigurationsIdGet($id)
+> \Spinen\ConnectWise\Clients\Company\Model\Configuration companyConfigurationsIdGet($id)
 
 
 
@@ -210,7 +210,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/Configuration.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/Configuration.md)
 
 ### Authorization
 
@@ -224,7 +224,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration companyConfigurationsIdPatch($id, $operations, $management_solution_name, $managed_identifier, $type, $level, $child_configurations_matching_on, $inactivate_configurations_matching_on, $inactive_configuration_status_id)
+> \Spinen\ConnectWise\Clients\Company\Model\Configuration companyConfigurationsIdPatch($id, $operations, $management_solution_name, $managed_identifier, $type, $level, $child_configurations_matching_on, $inactivate_configurations_matching_on, $inactive_configuration_status_id)
 
 
 
@@ -241,7 +241,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ConfigurationsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 $management_solution_name = "management_solution_name_example"; // string | 
 $managed_identifier = "managed_identifier_example"; // string | 
 $type = "type_example"; // string | 
@@ -264,7 +264,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
  **management_solution_name** | **string**|  | [optional]
  **managed_identifier** | **string**|  | [optional]
  **type** | **string**|  | [optional]
@@ -275,7 +275,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/Configuration.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/Configuration.md)
 
 ### Authorization
 
@@ -289,7 +289,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsIdPut**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration companyConfigurationsIdPut($id, $configuration, $management_solution_name, $managed_identifier, $type, $level, $child_configurations_matching_on, $inactivate_configurations_matching_on, $inactive_configuration_status_id)
+> \Spinen\ConnectWise\Clients\Company\Model\Configuration companyConfigurationsIdPut($id, $configuration, $management_solution_name, $managed_identifier, $type, $level, $child_configurations_matching_on, $inactivate_configurations_matching_on, $inactive_configuration_status_id)
 
 
 
@@ -306,7 +306,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ConfigurationsApi();
 $id = 56; // int | 
-$configuration = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration | 
+$configuration = new \Spinen\ConnectWise\Clients\Company\Model\Configuration(); // \Spinen\ConnectWise\Clients\Company\Model\Configuration | 
 $management_solution_name = "management_solution_name_example"; // string | 
 $managed_identifier = "managed_identifier_example"; // string | 
 $type = "type_example"; // string | 
@@ -329,7 +329,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **configuration** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration.md)|  |
+ **configuration** | [**\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/\Spinen\ConnectWise\Clients\Company\Model\Configuration.md)|  |
  **management_solution_name** | **string**|  | [optional]
  **managed_identifier** | **string**|  | [optional]
  **type** | **string**|  | [optional]
@@ -340,7 +340,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/Configuration.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/Configuration.md)
 
 ### Authorization
 
@@ -354,7 +354,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration companyConfigurationsPost($configuration, $management_solution_name, $managed_identifier, $type, $level, $child_configurations_matching_on, $inactivate_configurations_matching_on, $inactive_configuration_status_id)
+> \Spinen\ConnectWise\Clients\Company\Model\Configuration companyConfigurationsPost($configuration, $management_solution_name, $managed_identifier, $type, $level, $child_configurations_matching_on, $inactivate_configurations_matching_on, $inactive_configuration_status_id)
 
 
 
@@ -370,7 +370,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ConfigurationsApi();
-$configuration = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration | 
+$configuration = new \Spinen\ConnectWise\Clients\Company\Model\Configuration(); // \Spinen\ConnectWise\Clients\Company\Model\Configuration | 
 $management_solution_name = "management_solution_name_example"; // string | 
 $managed_identifier = "managed_identifier_example"; // string | 
 $type = "type_example"; // string | 
@@ -392,7 +392,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **configuration** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration.md)|  |
+ **configuration** | [**\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/\Spinen\ConnectWise\Clients\Company\Model\Configuration.md)|  |
  **management_solution_name** | **string**|  | [optional]
  **managed_identifier** | **string**|  | [optional]
  **type** | **string**|  | [optional]
@@ -403,7 +403,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/Configuration.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Configuration**](../Model/Configuration.md)
 
 ### Authorization
 

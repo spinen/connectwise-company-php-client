@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -56,10 +56,10 @@ class ManagementBackup implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'type' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\AgreementTypeReference',
-        'item' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CatalogItemReference',
+        'type' => '\Spinen\ConnectWise\Clients\Company\Model\AgreementTypeReference',
+        'item' => '\Spinen\ConnectWise\Clients\Company\Model\CatalogItemReference',
         'billing_level' => 'string',
-        '_info' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Company\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -230,7 +230,7 @@ class ManagementBackup implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\AgreementTypeReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\AgreementTypeReference
      */
     public function getType()
     {
@@ -239,7 +239,7 @@ class ManagementBackup implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\AgreementTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Company\Model\AgreementTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -251,7 +251,7 @@ class ManagementBackup implements ArrayAccess
 
     /**
      * Gets item
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CatalogItemReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\CatalogItemReference
      */
     public function getItem()
     {
@@ -260,7 +260,7 @@ class ManagementBackup implements ArrayAccess
 
     /**
      * Sets item
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CatalogItemReference $item
+     * @param \Spinen\ConnectWise\Clients\Company\Model\CatalogItemReference $item
      * @return $this
      */
     public function setItem($item)
@@ -297,7 +297,7 @@ class ManagementBackup implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Company\Model\Metadata
      */
     public function getInfo()
     {
@@ -306,7 +306,7 @@ class ManagementBackup implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

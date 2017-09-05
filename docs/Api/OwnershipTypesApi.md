@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyOwnershipTypesCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyOwnershipTypesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyOwnershipTypesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyOwnershipTypesGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType[] companyOwnershipTypesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Model\OwnershipType[] companyOwnershipTypesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType[]**](../Model/OwnershipType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\OwnershipType[]**](../Model/OwnershipType.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyOwnershipTypesIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType companyOwnershipTypesIdGet($id)
+> \Spinen\ConnectWise\Clients\Company\Model\OwnershipType companyOwnershipTypesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/OwnershipType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/OwnershipType.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyOwnershipTypesIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType companyOwnershipTypesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Model\OwnershipType companyOwnershipTypesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\OwnershipTypesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyOwnershipTypesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/OwnershipType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/OwnershipType.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyOwnershipTypesIdPut**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType companyOwnershipTypesIdPut($id, $ownership_type)
+> \Spinen\ConnectWise\Clients\Company\Model\OwnershipType companyOwnershipTypesIdPut($id, $ownership_type)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\OwnershipTypesApi();
 $id = 56; // int | 
-$ownership_type = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType | 
+$ownership_type = new \Spinen\ConnectWise\Clients\Company\Model\OwnershipType(); // \Spinen\ConnectWise\Clients\Company\Model\OwnershipType | 
 
 try {
     $result = $api_instance->companyOwnershipTypesIdPut($id, $ownership_type);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **ownership_type** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType.md)|  |
+ **ownership_type** | [**\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/\Spinen\ConnectWise\Clients\Company\Model\OwnershipType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/OwnershipType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/OwnershipType.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyOwnershipTypesPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType companyOwnershipTypesPost($ownership_type)
+> \Spinen\ConnectWise\Clients\Company\Model\OwnershipType companyOwnershipTypesPost($ownership_type)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\OwnershipTypesApi();
-$ownership_type = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType | 
+$ownership_type = new \Spinen\ConnectWise\Clients\Company\Model\OwnershipType(); // \Spinen\ConnectWise\Clients\Company\Model\OwnershipType | 
 
 try {
     $result = $api_instance->companyOwnershipTypesPost($ownership_type);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ownership_type** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType.md)|  |
+ **ownership_type** | [**\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/\Spinen\ConnectWise\Clients\Company\Model\OwnershipType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/OwnershipType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\OwnershipType**](../Model/OwnershipType.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -63,9 +63,9 @@ class Track implements ArrayAccess
         'action_taken' => 'int',
         'action_remaining' => 'int',
         'started_by' => 'string',
-        'company' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
-        'contact' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata'
+        'company' => '\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Company\Model\ContactReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Company\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -372,7 +372,7 @@ class Track implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -381,7 +381,7 @@ class Track implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -393,7 +393,7 @@ class Track implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\ContactReference
      */
     public function getContact()
     {
@@ -402,7 +402,7 @@ class Track implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Company\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -414,7 +414,7 @@ class Track implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Company\Model\Metadata
      */
     public function getInfo()
     {
@@ -423,7 +423,7 @@ class Track implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

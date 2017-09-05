@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyMarketDescriptionsCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyMarketDescriptionsCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyMarketDescriptionsCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyMarketDescriptionsGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription[] companyMarketDescriptionsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Model\MarketDescription[] companyMarketDescriptionsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription[]**](../Model/MarketDescription.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\MarketDescription[]**](../Model/MarketDescription.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyMarketDescriptionsIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription companyMarketDescriptionsIdGet($id)
+> \Spinen\ConnectWise\Clients\Company\Model\MarketDescription companyMarketDescriptionsIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/MarketDescription.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/MarketDescription.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyMarketDescriptionsIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription companyMarketDescriptionsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Model\MarketDescription companyMarketDescriptionsIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\MarketDescriptionsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyMarketDescriptionsIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/MarketDescription.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/MarketDescription.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyMarketDescriptionsIdPut**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription companyMarketDescriptionsIdPut($id, $market_description)
+> \Spinen\ConnectWise\Clients\Company\Model\MarketDescription companyMarketDescriptionsIdPut($id, $market_description)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\MarketDescriptionsApi();
 $id = 56; // int | 
-$market_description = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription | 
+$market_description = new \Spinen\ConnectWise\Clients\Company\Model\MarketDescription(); // \Spinen\ConnectWise\Clients\Company\Model\MarketDescription | 
 
 try {
     $result = $api_instance->companyMarketDescriptionsIdPut($id, $market_description);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **market_description** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription.md)|  |
+ **market_description** | [**\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/\Spinen\ConnectWise\Clients\Company\Model\MarketDescription.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/MarketDescription.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/MarketDescription.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyMarketDescriptionsPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription companyMarketDescriptionsPost($market_description)
+> \Spinen\ConnectWise\Clients\Company\Model\MarketDescription companyMarketDescriptionsPost($market_description)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\MarketDescriptionsApi();
-$market_description = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription | 
+$market_description = new \Spinen\ConnectWise\Clients\Company\Model\MarketDescription(); // \Spinen\ConnectWise\Clients\Company\Model\MarketDescription | 
 
 try {
     $result = $api_instance->companyMarketDescriptionsPost($market_description);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **market_description** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription.md)|  |
+ **market_description** | [**\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/\Spinen\ConnectWise\Clients\Company\Model\MarketDescription.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/MarketDescription.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\MarketDescription**](../Model/MarketDescription.md)
 
 ### Authorization
 

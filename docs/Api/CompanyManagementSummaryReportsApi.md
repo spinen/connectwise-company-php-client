@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyCompaniesIdManagementSummaryReportsCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyCompaniesIdManagementSummaryReportsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyCompaniesIdManagementSummaryReportsCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdManagementSummaryReportsGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary[] companyCompaniesIdManagementSummaryReportsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary[] companyCompaniesIdManagementSummaryReportsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary[]**](../Model/CompanyManagementSummary.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary[]**](../Model/CompanyManagementSummary.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdManagementSummaryReportsPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary companyCompaniesIdManagementSummaryReportsPost($id, $management_summary)
+> \Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary companyCompaniesIdManagementSummaryReportsPost($id, $management_summary)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyManagementSummaryReportsApi();
 $id = 56; // int | 
-$management_summary = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary | 
+$management_summary = new \Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary(); // \Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary | 
 
 try {
     $result = $api_instance->companyCompaniesIdManagementSummaryReportsPost($id, $management_summary);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **management_summary** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary.md)|  |
+ **management_summary** | [**\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/CompanyManagementSummary.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/CompanyManagementSummary.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdManagementSummaryReportsReportIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary companyCompaniesIdManagementSummaryReportsReportIdGet($id, $report_id)
+> \Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary companyCompaniesIdManagementSummaryReportsReportIdGet($id, $report_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/CompanyManagementSummary.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/CompanyManagementSummary.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdManagementSummaryReportsReportIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary companyCompaniesIdManagementSummaryReportsReportIdPatch($id, $report_id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary companyCompaniesIdManagementSummaryReportsReportIdPatch($id, $report_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyManagementSummaryReportsApi();
 $id = 56; // int | 
 $report_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyCompaniesIdManagementSummaryReportsReportIdPatch($id, $report_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **report_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/CompanyManagementSummary.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/CompanyManagementSummary.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdManagementSummaryReportsReportIdPut**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary companyCompaniesIdManagementSummaryReportsReportIdPut($id, $report_id, $management_summary)
+> \Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary companyCompaniesIdManagementSummaryReportsReportIdPut($id, $report_id, $management_summary)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyManagementSummaryReportsApi();
 $id = 56; // int | 
 $report_id = 56; // int | 
-$management_summary = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary | 
+$management_summary = new \Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary(); // \Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary | 
 
 try {
     $result = $api_instance->companyCompaniesIdManagementSummaryReportsReportIdPut($id, $report_id, $management_summary);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **report_id** | **int**|  |
- **management_summary** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary.md)|  |
+ **management_summary** | [**\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/CompanyManagementSummary.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\CompanyManagementSummary**](../Model/CompanyManagementSummary.md)
 
 ### Authorization
 

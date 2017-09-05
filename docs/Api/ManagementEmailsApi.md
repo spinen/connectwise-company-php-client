@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyManagementEmailsCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyManagementEmailsCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyManagementEmailsCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyManagementEmailsGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail[] companyManagementEmailsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Model\ManagementEmail[] companyManagementEmailsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail[]**](../Model/ManagementEmail.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail[]**](../Model/ManagementEmail.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyManagementEmailsIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail companyManagementEmailsIdGet($id)
+> \Spinen\ConnectWise\Clients\Company\Model\ManagementEmail companyManagementEmailsIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/ManagementEmail.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/ManagementEmail.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyManagementEmailsIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail companyManagementEmailsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Model\ManagementEmail companyManagementEmailsIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ManagementEmailsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyManagementEmailsIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/ManagementEmail.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/ManagementEmail.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyManagementEmailsIdPut**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail companyManagementEmailsIdPut($id, $management_email)
+> \Spinen\ConnectWise\Clients\Company\Model\ManagementEmail companyManagementEmailsIdPut($id, $management_email)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ManagementEmailsApi();
 $id = 56; // int | 
-$management_email = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail | 
+$management_email = new \Spinen\ConnectWise\Clients\Company\Model\ManagementEmail(); // \Spinen\ConnectWise\Clients\Company\Model\ManagementEmail | 
 
 try {
     $result = $api_instance->companyManagementEmailsIdPut($id, $management_email);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **management_email** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail.md)|  |
+ **management_email** | [**\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/ManagementEmail.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/ManagementEmail.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyManagementEmailsPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail companyManagementEmailsPost($management_email)
+> \Spinen\ConnectWise\Clients\Company\Model\ManagementEmail companyManagementEmailsPost($management_email)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ManagementEmailsApi();
-$management_email = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail | 
+$management_email = new \Spinen\ConnectWise\Clients\Company\Model\ManagementEmail(); // \Spinen\ConnectWise\Clients\Company\Model\ManagementEmail | 
 
 try {
     $result = $api_instance->companyManagementEmailsPost($management_email);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **management_email** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail.md)|  |
+ **management_email** | [**\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/ManagementEmail.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ManagementEmail**](../Model/ManagementEmail.md)
 
 ### Authorization
 

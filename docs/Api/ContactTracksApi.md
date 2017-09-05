@@ -13,7 +13,7 @@ Method | HTTP request | Description
 
 
 # **companyContactsIdTracksCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyContactsIdTracksCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyContactsIdTracksCountGet($id, $conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdTracksGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Track[] companyContactsIdTracksGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Model\Track[] companyContactsIdTracksGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -111,7 +111,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Track[]**](../Model/Track.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Track[]**](../Model/Track.md)
 
 ### Authorization
 
@@ -125,7 +125,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdTracksPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Track companyContactsIdTracksPost($id, $track)
+> \Spinen\ConnectWise\Clients\Company\Model\Track companyContactsIdTracksPost($id, $track)
 
 
 
@@ -142,7 +142,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ContactTracksApi();
 $id = 56; // int | 
-$track = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Track(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Track | 
+$track = new \Spinen\ConnectWise\Clients\Company\Model\Track(); // \Spinen\ConnectWise\Clients\Company\Model\Track | 
 
 try {
     $result = $api_instance->companyContactsIdTracksPost($id, $track);
@@ -158,11 +158,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **track** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Track**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Track.md)|  |
+ **track** | [**\Spinen\ConnectWise\Clients\Company\Model\Track**](../Model/\Spinen\ConnectWise\Clients\Company\Model\Track.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Track**](../Model/Track.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Track**](../Model/Track.md)
 
 ### Authorization
 
@@ -226,7 +226,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdTracksTrackIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Track companyContactsIdTracksTrackIdGet($id, $track_id)
+> \Spinen\ConnectWise\Clients\Company\Model\Track companyContactsIdTracksTrackIdGet($id, $track_id)
 
 
 
@@ -263,7 +263,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Track**](../Model/Track.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Track**](../Model/Track.md)
 
 ### Authorization
 

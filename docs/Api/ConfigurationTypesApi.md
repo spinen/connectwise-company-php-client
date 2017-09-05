@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyConfigurationsTypesCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyConfigurationsTypesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyConfigurationsTypesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsTypesGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType[] companyConfigurationsTypesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Model\ConfigurationType[] companyConfigurationsTypesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType[]**](../Model/ConfigurationType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType[]**](../Model/ConfigurationType.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsTypesIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType companyConfigurationsTypesIdGet($id)
+> \Spinen\ConnectWise\Clients\Company\Model\ConfigurationType companyConfigurationsTypesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/ConfigurationType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/ConfigurationType.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsTypesIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType companyConfigurationsTypesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Model\ConfigurationType companyConfigurationsTypesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ConfigurationTypesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyConfigurationsTypesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/ConfigurationType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/ConfigurationType.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsTypesIdPut**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType companyConfigurationsTypesIdPut($id, $configuration_type)
+> \Spinen\ConnectWise\Clients\Company\Model\ConfigurationType companyConfigurationsTypesIdPut($id, $configuration_type)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ConfigurationTypesApi();
 $id = 56; // int | 
-$configuration_type = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType | 
+$configuration_type = new \Spinen\ConnectWise\Clients\Company\Model\ConfigurationType(); // \Spinen\ConnectWise\Clients\Company\Model\ConfigurationType | 
 
 try {
     $result = $api_instance->companyConfigurationsTypesIdPut($id, $configuration_type);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **configuration_type** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType.md)|  |
+ **configuration_type** | [**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/ConfigurationType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/ConfigurationType.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsTypesPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType companyConfigurationsTypesPost($configuration_type)
+> \Spinen\ConnectWise\Clients\Company\Model\ConfigurationType companyConfigurationsTypesPost($configuration_type)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ConfigurationTypesApi();
-$configuration_type = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType | 
+$configuration_type = new \Spinen\ConnectWise\Clients\Company\Model\ConfigurationType(); // \Spinen\ConnectWise\Clients\Company\Model\ConfigurationType | 
 
 try {
     $result = $api_instance->companyConfigurationsTypesPost($configuration_type);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **configuration_type** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType.md)|  |
+ **configuration_type** | [**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/ConfigurationType.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationType**](../Model/ConfigurationType.md)
 
 ### Authorization
 

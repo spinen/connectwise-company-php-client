@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyManagementBackupsCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyManagementBackupsCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyManagementBackupsCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyManagementBackupsGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup[] companyManagementBackupsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Model\ManagementBackup[] companyManagementBackupsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup[]**](../Model/ManagementBackup.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup[]**](../Model/ManagementBackup.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyManagementBackupsIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup companyManagementBackupsIdGet($id)
+> \Spinen\ConnectWise\Clients\Company\Model\ManagementBackup companyManagementBackupsIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/ManagementBackup.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/ManagementBackup.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyManagementBackupsIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup companyManagementBackupsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Model\ManagementBackup companyManagementBackupsIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ManagementBackupsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyManagementBackupsIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/ManagementBackup.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/ManagementBackup.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyManagementBackupsIdPut**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup companyManagementBackupsIdPut($id, $management_backup)
+> \Spinen\ConnectWise\Clients\Company\Model\ManagementBackup companyManagementBackupsIdPut($id, $management_backup)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ManagementBackupsApi();
 $id = 56; // int | 
-$management_backup = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup | 
+$management_backup = new \Spinen\ConnectWise\Clients\Company\Model\ManagementBackup(); // \Spinen\ConnectWise\Clients\Company\Model\ManagementBackup | 
 
 try {
     $result = $api_instance->companyManagementBackupsIdPut($id, $management_backup);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **management_backup** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup.md)|  |
+ **management_backup** | [**\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/ManagementBackup.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/ManagementBackup.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyManagementBackupsPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup companyManagementBackupsPost($management_backup)
+> \Spinen\ConnectWise\Clients\Company\Model\ManagementBackup companyManagementBackupsPost($management_backup)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ManagementBackupsApi();
-$management_backup = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup | 
+$management_backup = new \Spinen\ConnectWise\Clients\Company\Model\ManagementBackup(); // \Spinen\ConnectWise\Clients\Company\Model\ManagementBackup | 
 
 try {
     $result = $api_instance->companyManagementBackupsPost($management_backup);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **management_backup** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup.md)|  |
+ **management_backup** | [**\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/ManagementBackup.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ManagementBackup**](../Model/ManagementBackup.md)
 
 ### Authorization
 

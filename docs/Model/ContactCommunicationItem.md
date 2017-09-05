@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **int** |  | [optional] 
-**type** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference**](CommunicationTypeReference.md) |  | 
+**type** | [**\Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference**](CommunicationTypeReference.md) |  | 
 **value** | **string** |  | 
 **extension** | **string** |  | [optional] 
 **default_flag** | **bool** |  | [optional] 

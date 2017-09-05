@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -58,17 +58,17 @@ class Contact implements ArrayAccess
         'id' => 'int',
         'first_name' => 'string',
         'last_name' => 'string',
-        'type' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactTypeReference',
-        'company' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
-        'site' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SiteReference',
+        'type' => '\Spinen\ConnectWise\Clients\Company\Model\ContactTypeReference',
+        'company' => '\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
+        'site' => '\Spinen\ConnectWise\Clients\Company\Model\SiteReference',
         'address_line1' => 'string',
         'address_line2' => 'string',
         'city' => 'string',
         'state' => 'string',
         'zip' => 'string',
         'country' => 'string',
-        'relationship' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\RelationshipReference',
-        'department' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactDepartmentReference',
+        'relationship' => '\Spinen\ConnectWise\Clients\Company\Model\RelationshipReference',
+        'department' => '\Spinen\ConnectWise\Clients\Company\Model\ContactDepartmentReference',
         'inactive_flag' => 'bool',
         'default_merge_contact_id' => 'int',
         'security_identifier' => 'string',
@@ -88,14 +88,14 @@ class Contact implements ArrayAccess
         'birth_day' => '\DateTime',
         'anniversary' => '\DateTime',
         'presence' => 'string',
-        'mobile_guid' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid',
+        'mobile_guid' => '\Spinen\ConnectWise\Clients\Company\Model\Guid',
         'facebook_url' => 'string',
         'twitter_url' => 'string',
         'linked_in_url' => 'string',
         'default_billing_flag' => 'bool',
-        'communication_items' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunicationItem[]',
-        '_info' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata',
-        'custom_fields' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]'
+        'communication_items' => '\Spinen\ConnectWise\Clients\Company\Model\ContactCommunicationItem[]',
+        '_info' => '\Spinen\ConnectWise\Clients\Company\Model\Metadata',
+        'custom_fields' => '\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]'
     ];
 
     public static function swaggerTypes()
@@ -589,7 +589,7 @@ class Contact implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactTypeReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\ContactTypeReference
      */
     public function getType()
     {
@@ -598,7 +598,7 @@ class Contact implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Company\Model\ContactTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -610,7 +610,7 @@ class Contact implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -619,7 +619,7 @@ class Contact implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -631,7 +631,7 @@ class Contact implements ArrayAccess
 
     /**
      * Gets site
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\SiteReference
      */
     public function getSite()
     {
@@ -640,7 +640,7 @@ class Contact implements ArrayAccess
 
     /**
      * Sets site
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SiteReference $site
+     * @param \Spinen\ConnectWise\Clients\Company\Model\SiteReference $site
      * @return $this
      */
     public function setSite($site)
@@ -802,7 +802,7 @@ class Contact implements ArrayAccess
 
     /**
      * Gets relationship
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\RelationshipReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\RelationshipReference
      */
     public function getRelationship()
     {
@@ -811,7 +811,7 @@ class Contact implements ArrayAccess
 
     /**
      * Sets relationship
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\RelationshipReference $relationship
+     * @param \Spinen\ConnectWise\Clients\Company\Model\RelationshipReference $relationship
      * @return $this
      */
     public function setRelationship($relationship)
@@ -823,7 +823,7 @@ class Contact implements ArrayAccess
 
     /**
      * Gets department
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactDepartmentReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\ContactDepartmentReference
      */
     public function getDepartment()
     {
@@ -832,7 +832,7 @@ class Contact implements ArrayAccess
 
     /**
      * Sets department
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactDepartmentReference $department
+     * @param \Spinen\ConnectWise\Clients\Company\Model\ContactDepartmentReference $department
      * @return $this
      */
     public function setDepartment($department)
@@ -1283,7 +1283,7 @@ class Contact implements ArrayAccess
 
     /**
      * Gets mobile_guid
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid
+     * @return \Spinen\ConnectWise\Clients\Company\Model\Guid
      */
     public function getMobileGuid()
     {
@@ -1292,7 +1292,7 @@ class Contact implements ArrayAccess
 
     /**
      * Sets mobile_guid
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid $mobile_guid
+     * @param \Spinen\ConnectWise\Clients\Company\Model\Guid $mobile_guid
      * @return $this
      */
     public function setMobileGuid($mobile_guid)
@@ -1388,7 +1388,7 @@ class Contact implements ArrayAccess
 
     /**
      * Gets communication_items
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunicationItem[]
+     * @return \Spinen\ConnectWise\Clients\Company\Model\ContactCommunicationItem[]
      */
     public function getCommunicationItems()
     {
@@ -1397,7 +1397,7 @@ class Contact implements ArrayAccess
 
     /**
      * Sets communication_items
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunicationItem[] $communication_items
+     * @param \Spinen\ConnectWise\Clients\Company\Model\ContactCommunicationItem[] $communication_items
      * @return $this
      */
     public function setCommunicationItems($communication_items)
@@ -1409,7 +1409,7 @@ class Contact implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Company\Model\Metadata
      */
     public function getInfo()
     {
@@ -1418,7 +1418,7 @@ class Contact implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
@@ -1430,7 +1430,7 @@ class Contact implements ArrayAccess
 
     /**
      * Gets custom_fields
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]
+     * @return \Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]
      */
     public function getCustomFields()
     {
@@ -1439,7 +1439,7 @@ class Contact implements ArrayAccess
 
     /**
      * Sets custom_fields
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[] $custom_fields
+     * @param \Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[] $custom_fields
      * @return $this
      */
     public function setCustomFields($custom_fields)

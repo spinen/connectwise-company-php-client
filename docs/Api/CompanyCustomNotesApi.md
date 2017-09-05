@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyCompaniesIdCustomStatusNotesCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyCompaniesIdCustomStatusNotesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyCompaniesIdCustomStatusNotesCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdCustomStatusNotesCustomNoteIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote companyCompaniesIdCustomStatusNotesCustomNoteIdGet($id, $custom_note_id)
+> \Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote companyCompaniesIdCustomStatusNotesCustomNoteIdGet($id, $custom_note_id)
 
 
 
@@ -153,7 +153,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/CompanyCustomNote.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/CompanyCustomNote.md)
 
 ### Authorization
 
@@ -167,7 +167,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdCustomStatusNotesCustomNoteIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote companyCompaniesIdCustomStatusNotesCustomNoteIdPatch($id, $custom_note_id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote companyCompaniesIdCustomStatusNotesCustomNoteIdPatch($id, $custom_note_id, $operations)
 
 
 
@@ -185,7 +185,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyCustomNotesApi();
 $id = 56; // int | 
 $custom_note_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyCompaniesIdCustomStatusNotesCustomNoteIdPatch($id, $custom_note_id, $operations);
@@ -202,11 +202,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **custom_note_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/CompanyCustomNote.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/CompanyCustomNote.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdCustomStatusNotesCustomNoteIdPut**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote companyCompaniesIdCustomStatusNotesCustomNoteIdPut($id, $custom_note_id, $custom_note)
+> \Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote companyCompaniesIdCustomStatusNotesCustomNoteIdPut($id, $custom_note_id, $custom_note)
 
 
 
@@ -238,7 +238,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyCustomNotesApi();
 $id = 56; // int | 
 $custom_note_id = 56; // int | 
-$custom_note = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote | 
+$custom_note = new \Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote(); // \Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote | 
 
 try {
     $result = $api_instance->companyCompaniesIdCustomStatusNotesCustomNoteIdPut($id, $custom_note_id, $custom_note);
@@ -255,11 +255,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **custom_note_id** | **int**|  |
- **custom_note** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote.md)|  |
+ **custom_note** | [**\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/CompanyCustomNote.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/CompanyCustomNote.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdCustomStatusNotesGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote[] companyCompaniesIdCustomStatusNotesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote[] companyCompaniesIdCustomStatusNotesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote[]**](../Model/CompanyCustomNote.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote[]**](../Model/CompanyCustomNote.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdCustomStatusNotesPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote companyCompaniesIdCustomStatusNotesPost($id, $custom_note)
+> \Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote companyCompaniesIdCustomStatusNotesPost($id, $custom_note)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyCustomNotesApi();
 $id = 56; // int | 
-$custom_note = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote | 
+$custom_note = new \Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote(); // \Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote | 
 
 try {
     $result = $api_instance->companyCompaniesIdCustomStatusNotesPost($id, $custom_note);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **custom_note** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote.md)|  |
+ **custom_note** | [**\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/CompanyCustomNote.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\CompanyCustomNote**](../Model/CompanyCustomNote.md)
 
 ### Authorization
 

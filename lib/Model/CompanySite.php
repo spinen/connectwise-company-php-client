@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -62,7 +62,7 @@ class CompanySite implements ArrayAccess
         'city' => 'string',
         'state' => 'string',
         'zip' => 'string',
-        'country' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CountryReference',
+        'country' => '\Spinen\ConnectWise\Clients\Company\Model\CountryReference',
         'phone_number' => 'string',
         'fax_number' => 'string',
         'tax_code_id' => 'int',
@@ -71,10 +71,10 @@ class CompanySite implements ArrayAccess
         'default_shipping_flag' => 'bool',
         'default_billing_flag' => 'bool',
         'default_mailing_flag' => 'bool',
-        'calendar' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CalendarReference',
-        'time_zone' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference',
-        'company' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata'
+        'calendar' => '\Spinen\ConnectWise\Clients\Company\Model\CalendarReference',
+        'time_zone' => '\Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference',
+        'company' => '\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Company\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -476,7 +476,7 @@ class CompanySite implements ArrayAccess
 
     /**
      * Gets country
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CountryReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\CountryReference
      */
     public function getCountry()
     {
@@ -485,7 +485,7 @@ class CompanySite implements ArrayAccess
 
     /**
      * Sets country
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CountryReference $country
+     * @param \Spinen\ConnectWise\Clients\Company\Model\CountryReference $country
      * @return $this
      */
     public function setCountry($country)
@@ -673,7 +673,7 @@ class CompanySite implements ArrayAccess
 
     /**
      * Gets calendar
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CalendarReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\CalendarReference
      */
     public function getCalendar()
     {
@@ -682,7 +682,7 @@ class CompanySite implements ArrayAccess
 
     /**
      * Sets calendar
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CalendarReference $calendar
+     * @param \Spinen\ConnectWise\Clients\Company\Model\CalendarReference $calendar
      * @return $this
      */
     public function setCalendar($calendar)
@@ -694,7 +694,7 @@ class CompanySite implements ArrayAccess
 
     /**
      * Gets time_zone
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference
      */
     public function getTimeZone()
     {
@@ -703,7 +703,7 @@ class CompanySite implements ArrayAccess
 
     /**
      * Sets time_zone
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference $time_zone
+     * @param \Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference $time_zone
      * @return $this
      */
     public function setTimeZone($time_zone)
@@ -715,7 +715,7 @@ class CompanySite implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -724,7 +724,7 @@ class CompanySite implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -736,7 +736,7 @@ class CompanySite implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Company\Model\Metadata
      */
     public function getInfo()
     {
@@ -745,7 +745,7 @@ class CompanySite implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

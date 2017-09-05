@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyTeamRolesCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyTeamRolesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyTeamRolesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyTeamRolesGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole[] companyTeamRolesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Model\TeamRole[] companyTeamRolesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole[]**](../Model/TeamRole.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\TeamRole[]**](../Model/TeamRole.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyTeamRolesIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole companyTeamRolesIdGet($id)
+> \Spinen\ConnectWise\Clients\Company\Model\TeamRole companyTeamRolesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/TeamRole.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/TeamRole.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyTeamRolesIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole companyTeamRolesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Model\TeamRole companyTeamRolesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\TeamRolesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyTeamRolesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/TeamRole.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/TeamRole.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyTeamRolesIdPut**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole companyTeamRolesIdPut($id, $team_role)
+> \Spinen\ConnectWise\Clients\Company\Model\TeamRole companyTeamRolesIdPut($id, $team_role)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\TeamRolesApi();
 $id = 56; // int | 
-$team_role = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole | 
+$team_role = new \Spinen\ConnectWise\Clients\Company\Model\TeamRole(); // \Spinen\ConnectWise\Clients\Company\Model\TeamRole | 
 
 try {
     $result = $api_instance->companyTeamRolesIdPut($id, $team_role);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **team_role** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole.md)|  |
+ **team_role** | [**\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/\Spinen\ConnectWise\Clients\Company\Model\TeamRole.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/TeamRole.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/TeamRole.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyTeamRolesPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole companyTeamRolesPost($team_role)
+> \Spinen\ConnectWise\Clients\Company\Model\TeamRole companyTeamRolesPost($team_role)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\TeamRolesApi();
-$team_role = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole | 
+$team_role = new \Spinen\ConnectWise\Clients\Company\Model\TeamRole(); // \Spinen\ConnectWise\Clients\Company\Model\TeamRole | 
 
 try {
     $result = $api_instance->companyTeamRolesPost($team_role);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **team_role** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole.md)|  |
+ **team_role** | [**\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/\Spinen\ConnectWise\Clients\Company\Model\TeamRole.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/TeamRole.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\TeamRole**](../Model/TeamRole.md)
 
 ### Authorization
 

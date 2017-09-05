@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -57,11 +57,11 @@ class Configuration implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'name' => 'string',
-        'type' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeReference',
-        'status' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationStatusReference',
-        'company' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
-        'contact' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference',
-        'site' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SiteReference',
+        'type' => '\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeReference',
+        'status' => '\Spinen\ConnectWise\Clients\Company\Model\ConfigurationStatusReference',
+        'company' => '\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Company\Model\ContactReference',
+        'site' => '\Spinen\ConnectWise\Clients\Company\Model\SiteReference',
         'location_id' => 'int',
         'business_unit_id' => 'int',
         'device_identifier' => 'string',
@@ -70,7 +70,7 @@ class Configuration implements ArrayAccess
         'tag_number' => 'string',
         'purchase_date' => '\DateTime',
         'installation_date' => '\DateTime',
-        'installed_by' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MemberReference',
+        'installed_by' => '\Spinen\ConnectWise\Clients\Company\Model\MemberReference',
         'warranty_expiration_date' => '\DateTime',
         'vendor_notes' => 'string',
         'notes' => 'string',
@@ -95,17 +95,17 @@ class Configuration implements ArrayAccess
         'ram' => 'string',
         'local_hard_drives' => 'string',
         'parent_configuration_id' => 'int',
-        'vendor' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
-        'manufacturer' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManufacturerReference',
-        'questions' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationQuestion[]',
+        'vendor' => '\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
+        'manufacturer' => '\Spinen\ConnectWise\Clients\Company\Model\ManufacturerReference',
+        'questions' => '\Spinen\ConnectWise\Clients\Company\Model\ConfigurationQuestion[]',
         'active_flag' => 'bool',
         'management_link' => 'string',
         'remote_link' => 'string',
-        'sla' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SLAReference',
-        'mobile_guid' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid',
-        '_info' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata',
+        'sla' => '\Spinen\ConnectWise\Clients\Company\Model\SLAReference',
+        'mobile_guid' => '\Spinen\ConnectWise\Clients\Company\Model\Guid',
+        '_info' => '\Spinen\ConnectWise\Clients\Company\Model\Metadata',
         'display_vendor_flag' => 'bool',
-        'custom_fields' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]'
+        'custom_fields' => '\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]'
     ];
 
     public static function swaggerTypes()
@@ -574,7 +574,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeReference
      */
     public function getType()
     {
@@ -583,7 +583,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -595,7 +595,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationStatusReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\ConfigurationStatusReference
      */
     public function getStatus()
     {
@@ -604,7 +604,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Company\Model\ConfigurationStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -616,7 +616,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -625,7 +625,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -637,7 +637,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\ContactReference
      */
     public function getContact()
     {
@@ -646,7 +646,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Company\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -658,7 +658,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets site
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\SiteReference
      */
     public function getSite()
     {
@@ -667,7 +667,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets site
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SiteReference $site
+     * @param \Spinen\ConnectWise\Clients\Company\Model\SiteReference $site
      * @return $this
      */
     public function setSite($site)
@@ -863,7 +863,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets installed_by
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\MemberReference
      */
     public function getInstalledBy()
     {
@@ -872,7 +872,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets installed_by
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MemberReference $installed_by
+     * @param \Spinen\ConnectWise\Clients\Company\Model\MemberReference $installed_by
      * @return $this
      */
     public function setInstalledBy($installed_by)
@@ -1424,7 +1424,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets vendor
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyReference
      */
     public function getVendor()
     {
@@ -1433,7 +1433,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets vendor
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference $vendor
+     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyReference $vendor
      * @return $this
      */
     public function setVendor($vendor)
@@ -1445,7 +1445,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets manufacturer
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManufacturerReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\ManufacturerReference
      */
     public function getManufacturer()
     {
@@ -1454,7 +1454,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets manufacturer
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManufacturerReference $manufacturer
+     * @param \Spinen\ConnectWise\Clients\Company\Model\ManufacturerReference $manufacturer
      * @return $this
      */
     public function setManufacturer($manufacturer)
@@ -1466,7 +1466,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets questions
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationQuestion[]
+     * @return \Spinen\ConnectWise\Clients\Company\Model\ConfigurationQuestion[]
      */
     public function getQuestions()
     {
@@ -1475,7 +1475,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets questions
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationQuestion[] $questions
+     * @param \Spinen\ConnectWise\Clients\Company\Model\ConfigurationQuestion[] $questions
      * @return $this
      */
     public function setQuestions($questions)
@@ -1558,7 +1558,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets sla
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SLAReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\SLAReference
      */
     public function getSla()
     {
@@ -1567,7 +1567,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets sla
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SLAReference $sla
+     * @param \Spinen\ConnectWise\Clients\Company\Model\SLAReference $sla
      * @return $this
      */
     public function setSla($sla)
@@ -1579,7 +1579,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets mobile_guid
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid
+     * @return \Spinen\ConnectWise\Clients\Company\Model\Guid
      */
     public function getMobileGuid()
     {
@@ -1588,7 +1588,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets mobile_guid
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid $mobile_guid
+     * @param \Spinen\ConnectWise\Clients\Company\Model\Guid $mobile_guid
      * @return $this
      */
     public function setMobileGuid($mobile_guid)
@@ -1600,7 +1600,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Company\Model\Metadata
      */
     public function getInfo()
     {
@@ -1609,7 +1609,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
@@ -1642,7 +1642,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Gets custom_fields
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]
+     * @return \Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]
      */
     public function getCustomFields()
     {
@@ -1651,7 +1651,7 @@ class Configuration implements ArrayAccess
 
     /**
      * Sets custom_fields
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[] $custom_fields
+     * @param \Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[] $custom_fields
      * @return $this
      */
     public function setCustomFields($custom_fields)

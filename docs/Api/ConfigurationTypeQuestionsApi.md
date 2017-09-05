@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyConfigurationsTypesIdQuestionsCountGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyConfigurationsTypesIdQuestionsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Company\Model\Count companyConfigurationsTypesIdQuestionsCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsTypesIdQuestionsGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion[] companyConfigurationsTypesIdQuestionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion[] companyConfigurationsTypesIdQuestionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion[]**](../Model/ConfigurationTypeQuestion.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion[]**](../Model/ConfigurationTypeQuestion.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsTypesIdQuestionsPost**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion companyConfigurationsTypesIdQuestionsPost($id, $configuration_type_question)
+> \Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion companyConfigurationsTypesIdQuestionsPost($id, $configuration_type_question)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ConfigurationTypeQuestionsApi();
 $id = 56; // int | 
-$configuration_type_question = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion | 
+$configuration_type_question = new \Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion(); // \Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion | 
 
 try {
     $result = $api_instance->companyConfigurationsTypesIdQuestionsPost($id, $configuration_type_question);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **configuration_type_question** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion.md)|  |
+ **configuration_type_question** | [**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/ConfigurationTypeQuestion.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/ConfigurationTypeQuestion.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsTypesIdQuestionsQuestionIdGet**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion companyConfigurationsTypesIdQuestionsQuestionIdGet($id, $question_id)
+> \Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion companyConfigurationsTypesIdQuestionsQuestionIdGet($id, $question_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/ConfigurationTypeQuestion.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/ConfigurationTypeQuestion.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsTypesIdQuestionsQuestionIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion companyConfigurationsTypesIdQuestionsQuestionIdPatch($id, $question_id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion companyConfigurationsTypesIdQuestionsQuestionIdPatch($id, $question_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ConfigurationTypeQuestionsApi();
 $id = 56; // int | 
 $question_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyConfigurationsTypesIdQuestionsQuestionIdPatch($id, $question_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **question_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/ConfigurationTypeQuestion.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/ConfigurationTypeQuestion.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyConfigurationsTypesIdQuestionsQuestionIdPut**
-> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion companyConfigurationsTypesIdQuestionsQuestionIdPut($id, $question_id, $configuration_type_question)
+> \Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion companyConfigurationsTypesIdQuestionsQuestionIdPut($id, $question_id, $configuration_type_question)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ConfigurationTypeQuestionsApi();
 $id = 56; // int | 
 $question_id = 56; // int | 
-$configuration_type_question = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion | 
+$configuration_type_question = new \Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion(); // \Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion | 
 
 try {
     $result = $api_instance->companyConfigurationsTypesIdQuestionsQuestionIdPut($id, $question_id, $configuration_type_question);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **question_id** | **int**|  |
- **configuration_type_question** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion.md)|  |
+ **configuration_type_question** | [**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/ConfigurationTypeQuestion.md)
+[**\Spinen\ConnectWise\Clients\Company\Model\ConfigurationTypeQuestion**](../Model/ConfigurationTypeQuestion.md)
 
 ### Authorization
 

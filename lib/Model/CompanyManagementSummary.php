@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -56,10 +56,10 @@ class CompanyManagementSummary implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'management_solution' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementSolutionReference',
+        'management_solution' => '\Spinen\ConnectWise\Clients\Company\Model\ManagementSolutionReference',
         'group_identifier' => 'string',
         'device_type' => 'string',
-        'agreement' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\AgreementReference',
+        'agreement' => '\Spinen\ConnectWise\Clients\Company\Model\AgreementReference',
         'snmp_machines' => 'int',
         'total_workstations' => 'int',
         'total_servers' => 'int',
@@ -88,8 +88,8 @@ class CompanyManagementSummary implements ArrayAccess
         'missing_security_patches' => 'string',
         'cpu_utilization' => 'double',
         'memory_utilization' => 'double',
-        'company' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata'
+        'company' => '\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Company\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -379,7 +379,7 @@ class CompanyManagementSummary implements ArrayAccess
 
     /**
      * Gets management_solution
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementSolutionReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\ManagementSolutionReference
      */
     public function getManagementSolution()
     {
@@ -388,7 +388,7 @@ class CompanyManagementSummary implements ArrayAccess
 
     /**
      * Sets management_solution
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ManagementSolutionReference $management_solution
+     * @param \Spinen\ConnectWise\Clients\Company\Model\ManagementSolutionReference $management_solution
      * @return $this
      */
     public function setManagementSolution($management_solution)
@@ -450,7 +450,7 @@ class CompanyManagementSummary implements ArrayAccess
 
     /**
      * Gets agreement
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\AgreementReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\AgreementReference
      */
     public function getAgreement()
     {
@@ -459,7 +459,7 @@ class CompanyManagementSummary implements ArrayAccess
 
     /**
      * Sets agreement
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\AgreementReference $agreement
+     * @param \Spinen\ConnectWise\Clients\Company\Model\AgreementReference $agreement
      * @return $this
      */
     public function setAgreement($agreement)
@@ -1059,7 +1059,7 @@ class CompanyManagementSummary implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -1068,7 +1068,7 @@ class CompanyManagementSummary implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -1080,7 +1080,7 @@ class CompanyManagementSummary implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Company\Model\Metadata
      */
     public function getInfo()
     {
@@ -1089,7 +1089,7 @@ class CompanyManagementSummary implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
