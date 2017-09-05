@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Api;
+namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Api;
 
 use \Spinen\ConnectWise\Clients\Company\ApiClient;
 use \Spinen\ConnectWise\Clients\Company\ApiException;
@@ -97,7 +97,7 @@ class CompanyNotesApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count
      */
     public function companyCompaniesIdNotesCountGet($id, $conditions = null)
     {
@@ -115,7 +115,7 @@ class CompanyNotesApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdNotesCountGetWithHttpInfo($id, $conditions = null)
     {
@@ -169,19 +169,19 @@ class CompanyNotesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\Count',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count',
                 '/company/companies/{id}/notes/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -205,7 +205,7 @@ class CompanyNotesApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyNote[]
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote[]
      */
     public function companyCompaniesIdNotesGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -228,7 +228,7 @@ class CompanyNotesApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\CompanyNote[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote[], HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdNotesGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -302,19 +302,19 @@ class CompanyNotesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote[]',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote[]',
                 '/company/companies/{id}/notes'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -421,7 +421,7 @@ class CompanyNotesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -440,7 +440,7 @@ class CompanyNotesApi
      * @param int $id  (required)
      * @param int $note_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyNote
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote
      */
     public function companyCompaniesIdNotesNoteIdGet($id, $note_id)
     {
@@ -458,7 +458,7 @@ class CompanyNotesApi
      * @param int $id  (required)
      * @param int $note_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\CompanyNote, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdNotesNoteIdGetWithHttpInfo($id, $note_id)
     {
@@ -520,19 +520,19 @@ class CompanyNotesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote',
                 '/company/companies/{id}/notes/{noteId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -550,9 +550,9 @@ class CompanyNotesApi
      *
      * @param int $id  (required)
      * @param int $note_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyNote
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote
      */
     public function companyCompaniesIdNotesNoteIdPatch($id, $note_id, $operations)
     {
@@ -569,9 +569,9 @@ class CompanyNotesApi
      *
      * @param int $id  (required)
      * @param int $note_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\CompanyNote, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdNotesNoteIdPatchWithHttpInfo($id, $note_id, $operations)
     {
@@ -642,19 +642,19 @@ class CompanyNotesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote',
                 '/company/companies/{id}/notes/{noteId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -672,9 +672,9 @@ class CompanyNotesApi
      *
      * @param int $id  (required)
      * @param int $note_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyNote $company_note  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote $company_note  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyNote
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote
      */
     public function companyCompaniesIdNotesNoteIdPut($id, $note_id, $company_note)
     {
@@ -691,9 +691,9 @@ class CompanyNotesApi
      *
      * @param int $id  (required)
      * @param int $note_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyNote $company_note  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote $company_note  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\CompanyNote, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdNotesNoteIdPutWithHttpInfo($id, $note_id, $company_note)
     {
@@ -764,19 +764,19 @@ class CompanyNotesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote',
                 '/company/companies/{id}/notes/{noteId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -793,9 +793,9 @@ class CompanyNotesApi
      * Spinen&#39;s PHP ConnectWise Client for Company API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyNote $company_note  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote $company_note  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyNote
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote
      */
     public function companyCompaniesIdNotesPost($id, $company_note)
     {
@@ -811,9 +811,9 @@ class CompanyNotesApi
      * Spinen&#39;s PHP ConnectWise Client for Company API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyNote $company_note  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote $company_note  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\CompanyNote, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdNotesPostWithHttpInfo($id, $company_note)
     {
@@ -872,19 +872,19 @@ class CompanyNotesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote',
                 '/company/companies/{id}/notes'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyNote', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

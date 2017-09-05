@@ -87,6 +87,13 @@ Class | Method | HTTP request | Description
 *CompaniesApi* | [**companyCompaniesIdPatch**](docs/Api/CompaniesApi.md#companycompaniesidpatch) | **PATCH** /company/companies/{id} | 
 *CompaniesApi* | [**companyCompaniesIdPut**](docs/Api/CompaniesApi.md#companycompaniesidput) | **PUT** /company/companies/{id} | 
 *CompaniesApi* | [**companyCompaniesPost**](docs/Api/CompaniesApi.md#companycompaniespost) | **POST** /company/companies | 
+*CompanyCustomNotesApi* | [**companyCompaniesIdCustomStatusNotesCountGet**](docs/Api/CompanyCustomNotesApi.md#companycompaniesidcustomstatusnotescountget) | **GET** /company/companies/{id}/customStatusNotes/count | 
+*CompanyCustomNotesApi* | [**companyCompaniesIdCustomStatusNotesCustomNoteIdDelete**](docs/Api/CompanyCustomNotesApi.md#companycompaniesidcustomstatusnotescustomnoteiddelete) | **DELETE** /company/companies/{id}/customStatusNotes/{customNoteId} | 
+*CompanyCustomNotesApi* | [**companyCompaniesIdCustomStatusNotesCustomNoteIdGet**](docs/Api/CompanyCustomNotesApi.md#companycompaniesidcustomstatusnotescustomnoteidget) | **GET** /company/companies/{id}/customStatusNotes/{customNoteId} | 
+*CompanyCustomNotesApi* | [**companyCompaniesIdCustomStatusNotesCustomNoteIdPatch**](docs/Api/CompanyCustomNotesApi.md#companycompaniesidcustomstatusnotescustomnoteidpatch) | **PATCH** /company/companies/{id}/customStatusNotes/{customNoteId} | 
+*CompanyCustomNotesApi* | [**companyCompaniesIdCustomStatusNotesCustomNoteIdPut**](docs/Api/CompanyCustomNotesApi.md#companycompaniesidcustomstatusnotescustomnoteidput) | **PUT** /company/companies/{id}/customStatusNotes/{customNoteId} | 
+*CompanyCustomNotesApi* | [**companyCompaniesIdCustomStatusNotesGet**](docs/Api/CompanyCustomNotesApi.md#companycompaniesidcustomstatusnotesget) | **GET** /company/companies/{id}/customStatusNotes | 
+*CompanyCustomNotesApi* | [**companyCompaniesIdCustomStatusNotesPost**](docs/Api/CompanyCustomNotesApi.md#companycompaniesidcustomstatusnotespost) | **POST** /company/companies/{id}/customStatusNotes | 
 *CompanyManagementSummaryReportsApi* | [**companyCompaniesIdManagementSummaryReportsCountGet**](docs/Api/CompanyManagementSummaryReportsApi.md#companycompaniesidmanagementsummaryreportscountget) | **GET** /company/companies/{id}/managementSummaryReports/count | 
 *CompanyManagementSummaryReportsApi* | [**companyCompaniesIdManagementSummaryReportsGet**](docs/Api/CompanyManagementSummaryReportsApi.md#companycompaniesidmanagementsummaryreportsget) | **GET** /company/companies/{id}/managementSummaryReports | 
 *CompanyManagementSummaryReportsApi* | [**companyCompaniesIdManagementSummaryReportsPost**](docs/Api/CompanyManagementSummaryReportsApi.md#companycompaniesidmanagementsummaryreportspost) | **POST** /company/companies/{id}/managementSummaryReports | 
@@ -94,6 +101,13 @@ Class | Method | HTTP request | Description
 *CompanyManagementSummaryReportsApi* | [**companyCompaniesIdManagementSummaryReportsReportIdGet**](docs/Api/CompanyManagementSummaryReportsApi.md#companycompaniesidmanagementsummaryreportsreportidget) | **GET** /company/companies/{id}/managementSummaryReports/{reportId} | 
 *CompanyManagementSummaryReportsApi* | [**companyCompaniesIdManagementSummaryReportsReportIdPatch**](docs/Api/CompanyManagementSummaryReportsApi.md#companycompaniesidmanagementsummaryreportsreportidpatch) | **PATCH** /company/companies/{id}/managementSummaryReports/{reportId} | 
 *CompanyManagementSummaryReportsApi* | [**companyCompaniesIdManagementSummaryReportsReportIdPut**](docs/Api/CompanyManagementSummaryReportsApi.md#companycompaniesidmanagementsummaryreportsreportidput) | **PUT** /company/companies/{id}/managementSummaryReports/{reportId} | 
+*CompanyNoteTypesApi* | [**companyNoteTypesCountGet**](docs/Api/CompanyNoteTypesApi.md#companynotetypescountget) | **GET** /company/noteTypes/count | 
+*CompanyNoteTypesApi* | [**companyNoteTypesGet**](docs/Api/CompanyNoteTypesApi.md#companynotetypesget) | **GET** /company/noteTypes | 
+*CompanyNoteTypesApi* | [**companyNoteTypesIdDelete**](docs/Api/CompanyNoteTypesApi.md#companynotetypesiddelete) | **DELETE** /company/noteTypes/{id} | 
+*CompanyNoteTypesApi* | [**companyNoteTypesIdGet**](docs/Api/CompanyNoteTypesApi.md#companynotetypesidget) | **GET** /company/noteTypes/{id} | 
+*CompanyNoteTypesApi* | [**companyNoteTypesIdPatch**](docs/Api/CompanyNoteTypesApi.md#companynotetypesidpatch) | **PATCH** /company/noteTypes/{id} | 
+*CompanyNoteTypesApi* | [**companyNoteTypesIdPut**](docs/Api/CompanyNoteTypesApi.md#companynotetypesidput) | **PUT** /company/noteTypes/{id} | 
+*CompanyNoteTypesApi* | [**companyNoteTypesPost**](docs/Api/CompanyNoteTypesApi.md#companynotetypespost) | **POST** /company/noteTypes | 
 *CompanyNotesApi* | [**companyCompaniesIdNotesCountGet**](docs/Api/CompanyNotesApi.md#companycompaniesidnotescountget) | **GET** /company/companies/{id}/notes/count | 
 *CompanyNotesApi* | [**companyCompaniesIdNotesGet**](docs/Api/CompanyNotesApi.md#companycompaniesidnotesget) | **GET** /company/companies/{id}/notes | 
 *CompanyNotesApi* | [**companyCompaniesIdNotesNoteIdDelete**](docs/Api/CompanyNotesApi.md#companycompaniesidnotesnoteiddelete) | **DELETE** /company/companies/{id}/notes/{noteId} | 
@@ -208,16 +222,54 @@ Class | Method | HTTP request | Description
 *ContactsApi* | [**companyContactsPost**](docs/Api/ContactsApi.md#companycontactspost) | **POST** /company/contacts | 
 *ContactsApi* | [**companyContactsRequestPasswordPost**](docs/Api/ContactsApi.md#companycontactsrequestpasswordpost) | **POST** /company/contacts/requestPassword | 
 *ContactsApi* | [**companyContactsValidatePortalCredentialsPost**](docs/Api/ContactsApi.md#companycontactsvalidateportalcredentialspost) | **POST** /company/contacts/validatePortalCredentials | 
+*ManagementBackupsApi* | [**companyManagementBackupsCountGet**](docs/Api/ManagementBackupsApi.md#companymanagementbackupscountget) | **GET** /company/managementBackups/count | 
+*ManagementBackupsApi* | [**companyManagementBackupsGet**](docs/Api/ManagementBackupsApi.md#companymanagementbackupsget) | **GET** /company/managementBackups | 
+*ManagementBackupsApi* | [**companyManagementBackupsIdDelete**](docs/Api/ManagementBackupsApi.md#companymanagementbackupsiddelete) | **DELETE** /company/managementBackups/{id} | 
+*ManagementBackupsApi* | [**companyManagementBackupsIdGet**](docs/Api/ManagementBackupsApi.md#companymanagementbackupsidget) | **GET** /company/managementBackups/{id} | 
+*ManagementBackupsApi* | [**companyManagementBackupsIdPatch**](docs/Api/ManagementBackupsApi.md#companymanagementbackupsidpatch) | **PATCH** /company/managementBackups/{id} | 
+*ManagementBackupsApi* | [**companyManagementBackupsIdPut**](docs/Api/ManagementBackupsApi.md#companymanagementbackupsidput) | **PUT** /company/managementBackups/{id} | 
+*ManagementBackupsApi* | [**companyManagementBackupsPost**](docs/Api/ManagementBackupsApi.md#companymanagementbackupspost) | **POST** /company/managementBackups | 
+*ManagementEmailsApi* | [**companyManagementEmailsCountGet**](docs/Api/ManagementEmailsApi.md#companymanagementemailscountget) | **GET** /company/managementEmails/count | 
+*ManagementEmailsApi* | [**companyManagementEmailsGet**](docs/Api/ManagementEmailsApi.md#companymanagementemailsget) | **GET** /company/managementEmails | 
+*ManagementEmailsApi* | [**companyManagementEmailsIdDelete**](docs/Api/ManagementEmailsApi.md#companymanagementemailsiddelete) | **DELETE** /company/managementEmails/{id} | 
+*ManagementEmailsApi* | [**companyManagementEmailsIdGet**](docs/Api/ManagementEmailsApi.md#companymanagementemailsidget) | **GET** /company/managementEmails/{id} | 
+*ManagementEmailsApi* | [**companyManagementEmailsIdPatch**](docs/Api/ManagementEmailsApi.md#companymanagementemailsidpatch) | **PATCH** /company/managementEmails/{id} | 
+*ManagementEmailsApi* | [**companyManagementEmailsIdPut**](docs/Api/ManagementEmailsApi.md#companymanagementemailsidput) | **PUT** /company/managementEmails/{id} | 
+*ManagementEmailsApi* | [**companyManagementEmailsPost**](docs/Api/ManagementEmailsApi.md#companymanagementemailspost) | **POST** /company/managementEmails | 
+*MarketDescriptionsApi* | [**companyMarketDescriptionsCountGet**](docs/Api/MarketDescriptionsApi.md#companymarketdescriptionscountget) | **GET** /company/marketDescriptions/count | 
+*MarketDescriptionsApi* | [**companyMarketDescriptionsGet**](docs/Api/MarketDescriptionsApi.md#companymarketdescriptionsget) | **GET** /company/marketDescriptions | 
+*MarketDescriptionsApi* | [**companyMarketDescriptionsIdDelete**](docs/Api/MarketDescriptionsApi.md#companymarketdescriptionsiddelete) | **DELETE** /company/marketDescriptions/{id} | 
+*MarketDescriptionsApi* | [**companyMarketDescriptionsIdGet**](docs/Api/MarketDescriptionsApi.md#companymarketdescriptionsidget) | **GET** /company/marketDescriptions/{id} | 
+*MarketDescriptionsApi* | [**companyMarketDescriptionsIdPatch**](docs/Api/MarketDescriptionsApi.md#companymarketdescriptionsidpatch) | **PATCH** /company/marketDescriptions/{id} | 
+*MarketDescriptionsApi* | [**companyMarketDescriptionsIdPut**](docs/Api/MarketDescriptionsApi.md#companymarketdescriptionsidput) | **PUT** /company/marketDescriptions/{id} | 
+*MarketDescriptionsApi* | [**companyMarketDescriptionsPost**](docs/Api/MarketDescriptionsApi.md#companymarketdescriptionspost) | **POST** /company/marketDescriptions | 
+*OwnershipTypesApi* | [**companyOwnershipTypesCountGet**](docs/Api/OwnershipTypesApi.md#companyownershiptypescountget) | **GET** /company/ownershipTypes/count | 
+*OwnershipTypesApi* | [**companyOwnershipTypesGet**](docs/Api/OwnershipTypesApi.md#companyownershiptypesget) | **GET** /company/ownershipTypes | 
+*OwnershipTypesApi* | [**companyOwnershipTypesIdDelete**](docs/Api/OwnershipTypesApi.md#companyownershiptypesiddelete) | **DELETE** /company/ownershipTypes/{id} | 
+*OwnershipTypesApi* | [**companyOwnershipTypesIdGet**](docs/Api/OwnershipTypesApi.md#companyownershiptypesidget) | **GET** /company/ownershipTypes/{id} | 
+*OwnershipTypesApi* | [**companyOwnershipTypesIdPatch**](docs/Api/OwnershipTypesApi.md#companyownershiptypesidpatch) | **PATCH** /company/ownershipTypes/{id} | 
+*OwnershipTypesApi* | [**companyOwnershipTypesIdPut**](docs/Api/OwnershipTypesApi.md#companyownershiptypesidput) | **PUT** /company/ownershipTypes/{id} | 
+*OwnershipTypesApi* | [**companyOwnershipTypesPost**](docs/Api/OwnershipTypesApi.md#companyownershiptypespost) | **POST** /company/ownershipTypes | 
+*TeamRolesApi* | [**companyTeamRolesCountGet**](docs/Api/TeamRolesApi.md#companyteamrolescountget) | **GET** /company/teamRoles/count | 
+*TeamRolesApi* | [**companyTeamRolesGet**](docs/Api/TeamRolesApi.md#companyteamrolesget) | **GET** /company/teamRoles | 
+*TeamRolesApi* | [**companyTeamRolesIdDelete**](docs/Api/TeamRolesApi.md#companyteamrolesiddelete) | **DELETE** /company/teamRoles/{id} | 
+*TeamRolesApi* | [**companyTeamRolesIdGet**](docs/Api/TeamRolesApi.md#companyteamrolesidget) | **GET** /company/teamRoles/{id} | 
+*TeamRolesApi* | [**companyTeamRolesIdPatch**](docs/Api/TeamRolesApi.md#companyteamrolesidpatch) | **PATCH** /company/teamRoles/{id} | 
+*TeamRolesApi* | [**companyTeamRolesIdPut**](docs/Api/TeamRolesApi.md#companyteamrolesidput) | **PUT** /company/teamRoles/{id} | 
+*TeamRolesApi* | [**companyTeamRolesPost**](docs/Api/TeamRolesApi.md#companyteamrolespost) | **POST** /company/teamRoles | 
 
 
 ## Documentation For Models
 
  - [AgreementReference](docs/Model/AgreementReference.md)
+ - [AgreementTypeReference](docs/Model/AgreementTypeReference.md)
  - [BillingDeliveryReference](docs/Model/BillingDeliveryReference.md)
  - [BillingTermsReference](docs/Model/BillingTermsReference.md)
  - [CalendarReference](docs/Model/CalendarReference.md)
+ - [CatalogItemReference](docs/Model/CatalogItemReference.md)
  - [CommunicationTypeReference](docs/Model/CommunicationTypeReference.md)
  - [Company](docs/Model/Company.md)
+ - [CompanyCustomNote](docs/Model/CompanyCustomNote.md)
  - [CompanyManagementSummary](docs/Model/CompanyManagementSummary.md)
  - [CompanyMerge](docs/Model/CompanyMerge.md)
  - [CompanyNote](docs/Model/CompanyNote.md)
@@ -253,11 +305,16 @@ Class | Method | HTTP request | Description
  - [Error](docs/Model/Error.md)
  - [Guid](docs/Model/Guid.md)
  - [InvoiceTemplateReference](docs/Model/InvoiceTemplateReference.md)
+ - [ManagementBackup](docs/Model/ManagementBackup.md)
+ - [ManagementEmail](docs/Model/ManagementEmail.md)
  - [ManagementSolutionReference](docs/Model/ManagementSolutionReference.md)
  - [ManufacturerReference](docs/Model/ManufacturerReference.md)
+ - [MarketDescription](docs/Model/MarketDescription.md)
  - [MemberReference](docs/Model/MemberReference.md)
  - [Metadata](docs/Model/Metadata.md)
+ - [NoteType](docs/Model/NoteType.md)
  - [NoteTypeReference](docs/Model/NoteTypeReference.md)
+ - [OwnershipType](docs/Model/OwnershipType.md)
  - [OwnershipTypeReference](docs/Model/OwnershipTypeReference.md)
  - [PatchOperation](docs/Model/PatchOperation.md)
  - [PortalSecurity](docs/Model/PortalSecurity.md)
@@ -269,6 +326,7 @@ Class | Method | HTTP request | Description
  - [SiteReference](docs/Model/SiteReference.md)
  - [SuccessResponse](docs/Model/SuccessResponse.md)
  - [TaxCodeReference](docs/Model/TaxCodeReference.md)
+ - [TeamRole](docs/Model/TeamRole.md)
  - [TeamRoleReference](docs/Model/TeamRoleReference.md)
  - [TimeZoneReference](docs/Model/TimeZoneReference.md)
  - [Track](docs/Model/Track.md)

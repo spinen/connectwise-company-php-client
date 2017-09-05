@@ -19,7 +19,7 @@ Method | HTTP request | Description
 
 
 # **companyContactsCountGet**
-> \Spinen\ConnectWise\Clients\Company\Model\Count companyContactsCountGet($conditions, $custom_field_conditions, $child_conditions)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyContactsCountGet($conditions, $custom_field_conditions, $child_conditions)
 
 
 
@@ -58,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -72,7 +72,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsGet**
-> \Spinen\ConnectWise\Clients\Company\Model\Contact[] companyContactsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact[] companyContactsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -117,7 +117,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\Contact[]**](../Model/Contact.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact[]**](../Model/Contact.md)
 
 ### Authorization
 
@@ -181,7 +181,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdGet**
-> \Spinen\ConnectWise\Clients\Company\Model\Contact companyContactsIdGet($id)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact companyContactsIdGet($id)
 
 
 
@@ -216,7 +216,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/Contact.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/Contact.md)
 
 ### Authorization
 
@@ -282,7 +282,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Model\Contact companyContactsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact companyContactsIdPatch($id, $operations)
 
 
 
@@ -299,7 +299,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ContactsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyContactsIdPatch($id, $operations);
@@ -315,11 +315,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/Contact.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/Contact.md)
 
 ### Authorization
 
@@ -333,7 +333,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdPortalSecurityGet**
-> \Spinen\ConnectWise\Clients\Company\Model\PortalSecurity[] companyContactsIdPortalSecurityGet($id)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PortalSecurity[] companyContactsIdPortalSecurityGet($id)
 
 
 
@@ -368,7 +368,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\PortalSecurity[]**](../Model/PortalSecurity.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PortalSecurity[]**](../Model/PortalSecurity.md)
 
 ### Authorization
 
@@ -382,7 +382,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdPut**
-> \Spinen\ConnectWise\Clients\Company\Model\Contact companyContactsIdPut($id, $contact)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact companyContactsIdPut($id, $contact)
 
 
 
@@ -399,7 +399,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ContactsApi();
 $id = 56; // int | 
-$contact = new \Spinen\ConnectWise\Clients\Company\Model\Contact(); // \Spinen\ConnectWise\Clients\Company\Model\Contact | 
+$contact = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact | 
 
 try {
     $result = $api_instance->companyContactsIdPut($id, $contact);
@@ -415,11 +415,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **contact** | [**\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/\Spinen\ConnectWise\Clients\Company\Model\Contact.md)|  |
+ **contact** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/Contact.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/Contact.md)
 
 ### Authorization
 
@@ -433,7 +433,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsPost**
-> \Spinen\ConnectWise\Clients\Company\Model\Contact companyContactsPost($contact)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact companyContactsPost($contact)
 
 
 
@@ -449,7 +449,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ContactsApi();
-$contact = new \Spinen\ConnectWise\Clients\Company\Model\Contact(); // \Spinen\ConnectWise\Clients\Company\Model\Contact | 
+$contact = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact | 
 
 try {
     $result = $api_instance->companyContactsPost($contact);
@@ -464,11 +464,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **contact** | [**\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/\Spinen\ConnectWise\Clients\Company\Model\Contact.md)|  |
+ **contact** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/Contact.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Contact**](../Model/Contact.md)
 
 ### Authorization
 
@@ -498,7 +498,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ContactsApi();
-$request = new \Spinen\ConnectWise\Clients\Company\Model\RequestPasswordRequest(); // \Spinen\ConnectWise\Clients\Company\Model\RequestPasswordRequest | 
+$request = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\RequestPasswordRequest(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\RequestPasswordRequest | 
 
 try {
     $api_instance->companyContactsRequestPasswordPost($request);
@@ -512,7 +512,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Spinen\ConnectWise\Clients\Company\Model\RequestPasswordRequest**](../Model/\Spinen\ConnectWise\Clients\Company\Model\RequestPasswordRequest.md)|  |
+ **request** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\RequestPasswordRequest**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\RequestPasswordRequest.md)|  |
 
 ### Return type
 
@@ -530,7 +530,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsValidatePortalCredentialsPost**
-> \Spinen\ConnectWise\Clients\Company\Model\ValidatePortalResponse companyContactsValidatePortalCredentialsPost($request)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ValidatePortalResponse companyContactsValidatePortalCredentialsPost($request)
 
 
 
@@ -546,7 +546,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ContactsApi();
-$request = new \Spinen\ConnectWise\Clients\Company\Model\ValidatePortalRequest(); // \Spinen\ConnectWise\Clients\Company\Model\ValidatePortalRequest | 
+$request = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ValidatePortalRequest(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ValidatePortalRequest | 
 
 try {
     $result = $api_instance->companyContactsValidatePortalCredentialsPost($request);
@@ -561,11 +561,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Spinen\ConnectWise\Clients\Company\Model\ValidatePortalRequest**](../Model/\Spinen\ConnectWise\Clients\Company\Model\ValidatePortalRequest.md)|  |
+ **request** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ValidatePortalRequest**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ValidatePortalRequest.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\ValidatePortalResponse**](../Model/ValidatePortalResponse.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ValidatePortalResponse**](../Model/ValidatePortalResponse.md)
 
 ### Authorization
 

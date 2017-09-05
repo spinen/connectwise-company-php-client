@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Api;
+namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Api;
 
 use \Spinen\ConnectWise\Clients\Company\ApiClient;
 use \Spinen\ConnectWise\Clients\Company\ApiException;
@@ -97,7 +97,7 @@ class CompanySitesApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count
      */
     public function companyCompaniesIdSitesCountGet($id, $conditions = null)
     {
@@ -115,7 +115,7 @@ class CompanySitesApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdSitesCountGetWithHttpInfo($id, $conditions = null)
     {
@@ -169,19 +169,19 @@ class CompanySitesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\Count',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count',
                 '/company/companies/{id}/sites/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -205,7 +205,7 @@ class CompanySitesApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanySite[]
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite[]
      */
     public function companyCompaniesIdSitesGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -228,7 +228,7 @@ class CompanySitesApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\CompanySite[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite[], HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdSitesGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -302,19 +302,19 @@ class CompanySitesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\CompanySite[]',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite[]',
                 '/company/companies/{id}/sites'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\CompanySite[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\CompanySite[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -331,9 +331,9 @@ class CompanySitesApi
      * Spinen&#39;s PHP ConnectWise Client for Company API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanySite $site  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite $site  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanySite
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite
      */
     public function companyCompaniesIdSitesPost($id, $site)
     {
@@ -349,9 +349,9 @@ class CompanySitesApi
      * Spinen&#39;s PHP ConnectWise Client for Company API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanySite $site  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite $site  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\CompanySite, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdSitesPostWithHttpInfo($id, $site)
     {
@@ -410,19 +410,19 @@ class CompanySitesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\CompanySite',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite',
                 '/company/companies/{id}/sites'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -529,7 +529,7 @@ class CompanySitesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -548,7 +548,7 @@ class CompanySitesApi
      * @param int $id  (required)
      * @param int $site_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanySite
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite
      */
     public function companyCompaniesIdSitesSiteIdGet($id, $site_id)
     {
@@ -566,7 +566,7 @@ class CompanySitesApi
      * @param int $id  (required)
      * @param int $site_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\CompanySite, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdSitesSiteIdGetWithHttpInfo($id, $site_id)
     {
@@ -628,19 +628,19 @@ class CompanySitesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\CompanySite',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite',
                 '/company/companies/{id}/sites/{siteId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -658,9 +658,9 @@ class CompanySitesApi
      *
      * @param int $id  (required)
      * @param int $site_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanySite
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite
      */
     public function companyCompaniesIdSitesSiteIdPatch($id, $site_id, $operations)
     {
@@ -677,9 +677,9 @@ class CompanySitesApi
      *
      * @param int $id  (required)
      * @param int $site_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\CompanySite, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdSitesSiteIdPatchWithHttpInfo($id, $site_id, $operations)
     {
@@ -750,19 +750,19 @@ class CompanySitesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\CompanySite',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite',
                 '/company/companies/{id}/sites/{siteId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -780,9 +780,9 @@ class CompanySitesApi
      *
      * @param int $id  (required)
      * @param int $site_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanySite $site  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite $site  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanySite
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite
      */
     public function companyCompaniesIdSitesSiteIdPut($id, $site_id, $site)
     {
@@ -799,9 +799,9 @@ class CompanySitesApi
      *
      * @param int $id  (required)
      * @param int $site_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanySite $site  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite $site  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\CompanySite, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyCompaniesIdSitesSiteIdPutWithHttpInfo($id, $site_id, $site)
     {
@@ -872,19 +872,19 @@ class CompanySitesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\CompanySite',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite',
                 '/company/companies/{id}/sites/{siteId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

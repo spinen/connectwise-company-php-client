@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **city** | **string** |  | [optional] 
 **state** | **string** |  | [optional] 
 **zip** | **string** |  | [optional] 
-**country** | [**\Spinen\ConnectWise\Clients\Company\Model\CountryReference**](CountryReference.md) |  | [optional] 
+**country** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CountryReference**](CountryReference.md) |  | [optional] 
 **phone_number** | **string** |  | [optional] 
 **fax_number** | **string** |  | [optional] 
 **tax_code_id** | **int** |  | [optional] 
@@ -19,10 +19,10 @@ Name | Type | Description | Notes
 **default_shipping_flag** | **bool** |  | [optional] 
 **default_billing_flag** | **bool** |  | [optional] 
 **default_mailing_flag** | **bool** |  | [optional] 
-**calendar** | [**\Spinen\ConnectWise\Clients\Company\Model\CalendarReference**](CalendarReference.md) |  | [optional] 
-**time_zone** | [**\Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference**](TimeZoneReference.md) |  | [optional] 
-**company** | [**\Spinen\ConnectWise\Clients\Company\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
-**_info** | [**\Spinen\ConnectWise\Clients\Company\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
+**calendar** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CalendarReference**](CalendarReference.md) |  | [optional] 
+**time_zone** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference**](TimeZoneReference.md) |  | [optional] 
+**company** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
+**_info** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

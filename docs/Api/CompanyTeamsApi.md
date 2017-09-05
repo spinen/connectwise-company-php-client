@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyCompaniesIdTeamsCountGet**
-> \Spinen\ConnectWise\Clients\Company\Model\Count companyCompaniesIdTeamsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyCompaniesIdTeamsCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdTeamsGet**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanyTeam[] companyCompaniesIdTeamsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam[] companyCompaniesIdTeamsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam[]**](../Model/CompanyTeam.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam[]**](../Model/CompanyTeam.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdTeamsPost**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanyTeam companyCompaniesIdTeamsPost($id, $company_team)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam companyCompaniesIdTeamsPost($id, $company_team)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyTeamsApi();
 $id = 56; // int | 
-$company_team = new \Spinen\ConnectWise\Clients\Company\Model\CompanyTeam(); // \Spinen\ConnectWise\Clients\Company\Model\CompanyTeam | 
+$company_team = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam | 
 
 try {
     $result = $api_instance->companyCompaniesIdTeamsPost($id, $company_team);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **company_team** | [**\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam.md)|  |
+ **company_team** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/CompanyTeam.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/CompanyTeam.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdTeamsTeamIdGet**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanyTeam companyCompaniesIdTeamsTeamIdGet($id, $team_id)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam companyCompaniesIdTeamsTeamIdGet($id, $team_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/CompanyTeam.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/CompanyTeam.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdTeamsTeamIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanyTeam companyCompaniesIdTeamsTeamIdPatch($id, $team_id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam companyCompaniesIdTeamsTeamIdPatch($id, $team_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyTeamsApi();
 $id = 56; // int | 
 $team_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyCompaniesIdTeamsTeamIdPatch($id, $team_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **team_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/CompanyTeam.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/CompanyTeam.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdTeamsTeamIdPut**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanyTeam companyCompaniesIdTeamsTeamIdPut($id, $team_id, $company_team)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam companyCompaniesIdTeamsTeamIdPut($id, $team_id, $company_team)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyTeamsApi();
 $id = 56; // int | 
 $team_id = 56; // int | 
-$company_team = new \Spinen\ConnectWise\Clients\Company\Model\CompanyTeam(); // \Spinen\ConnectWise\Clients\Company\Model\CompanyTeam | 
+$company_team = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam | 
 
 try {
     $result = $api_instance->companyCompaniesIdTeamsTeamIdPut($id, $team_id, $company_team);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **team_id** | **int**|  |
- **company_team** | [**\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam.md)|  |
+ **company_team** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/CompanyTeam.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTeam**](../Model/CompanyTeam.md)
 
 ### Authorization
 

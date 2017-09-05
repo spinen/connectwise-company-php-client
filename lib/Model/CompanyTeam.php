@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -56,16 +56,16 @@ class CompanyTeam implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'company' => '\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
-        'team_role' => '\Spinen\ConnectWise\Clients\Company\Model\TeamRoleReference',
+        'company' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
+        'team_role' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRoleReference',
         'location_id' => 'int',
         'business_unit_id' => 'int',
-        'contact' => '\Spinen\ConnectWise\Clients\Company\Model\ContactReference',
-        'member' => '\Spinen\ConnectWise\Clients\Company\Model\MemberReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference',
+        'member' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MemberReference',
         'account_manager_flag' => 'bool',
         'tech_flag' => 'bool',
         'sales_flag' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Company\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -225,7 +225,7 @@ class CompanyTeam implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -234,7 +234,7 @@ class CompanyTeam implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -246,7 +246,7 @@ class CompanyTeam implements ArrayAccess
 
     /**
      * Gets team_role
-     * @return \Spinen\ConnectWise\Clients\Company\Model\TeamRoleReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRoleReference
      */
     public function getTeamRole()
     {
@@ -255,7 +255,7 @@ class CompanyTeam implements ArrayAccess
 
     /**
      * Sets team_role
-     * @param \Spinen\ConnectWise\Clients\Company\Model\TeamRoleReference $team_role
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TeamRoleReference $team_role
      * @return $this
      */
     public function setTeamRole($team_role)
@@ -309,7 +309,7 @@ class CompanyTeam implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Company\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference
      */
     public function getContact()
     {
@@ -318,7 +318,7 @@ class CompanyTeam implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Company\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -330,7 +330,7 @@ class CompanyTeam implements ArrayAccess
 
     /**
      * Gets member
-     * @return \Spinen\ConnectWise\Clients\Company\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MemberReference
      */
     public function getMember()
     {
@@ -339,7 +339,7 @@ class CompanyTeam implements ArrayAccess
 
     /**
      * Sets member
-     * @param \Spinen\ConnectWise\Clients\Company\Model\MemberReference $member
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MemberReference $member
      * @return $this
      */
     public function setMember($member)
@@ -414,7 +414,7 @@ class CompanyTeam implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata
      */
     public function getInfo()
     {
@@ -423,7 +423,7 @@ class CompanyTeam implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -57,13 +57,13 @@ class ContactCommunication implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'contact_id' => 'int',
-        'type' => '\Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference',
+        'type' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference',
         'value' => 'string',
         'extension' => 'string',
         'default_flag' => 'bool',
-        'mobile_guid' => '\Spinen\ConnectWise\Clients\Company\Model\Guid',
+        'mobile_guid' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid',
         'communication_type' => 'string',
-        '_info' => '\Spinen\ConnectWise\Clients\Company\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -281,7 +281,7 @@ class ContactCommunication implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference
      */
     public function getType()
     {
@@ -290,7 +290,7 @@ class ContactCommunication implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -373,7 +373,7 @@ class ContactCommunication implements ArrayAccess
 
     /**
      * Gets mobile_guid
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Guid
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid
      */
     public function getMobileGuid()
     {
@@ -382,7 +382,7 @@ class ContactCommunication implements ArrayAccess
 
     /**
      * Sets mobile_guid
-     * @param \Spinen\ConnectWise\Clients\Company\Model\Guid $mobile_guid
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid $mobile_guid
      * @return $this
      */
     public function setMobileGuid($mobile_guid)
@@ -419,7 +419,7 @@ class ContactCommunication implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata
      */
     public function getInfo()
     {
@@ -428,7 +428,7 @@ class ContactCommunication implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

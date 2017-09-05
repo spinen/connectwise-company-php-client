@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Api;
+namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Api;
 
 use \Spinen\ConnectWise\Clients\Company\ApiClient;
 use \Spinen\ConnectWise\Clients\Company\ApiException;
@@ -97,7 +97,7 @@ class ConfigurationsApi
      * @param string $conditions  (optional)
      * @param string $managed_identifier  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count
      */
     public function companyConfigurationsCountGet($conditions = null, $managed_identifier = null)
     {
@@ -115,7 +115,7 @@ class ConfigurationsApi
      * @param string $conditions  (optional)
      * @param string $managed_identifier  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyConfigurationsCountGetWithHttpInfo($conditions = null, $managed_identifier = null)
     {
@@ -161,19 +161,19 @@ class ConfigurationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\Count',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count',
                 '/company/configurations/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -197,7 +197,7 @@ class ConfigurationsApi
      * @param int $page_size  (optional)
      * @param string $managed_identifier  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Configuration[]
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration[]
      */
     public function companyConfigurationsGet($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null, $managed_identifier = null)
     {
@@ -220,7 +220,7 @@ class ConfigurationsApi
      * @param int $page_size  (optional)
      * @param string $managed_identifier  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\Configuration[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration[], HTTP status code, HTTP response headers (array of strings)
      */
     public function companyConfigurationsGetWithHttpInfo($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null, $managed_identifier = null)
     {
@@ -286,19 +286,19 @@ class ConfigurationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\Configuration[]',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration[]',
                 '/company/configurations'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\Configuration[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Configuration[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -391,7 +391,7 @@ class ConfigurationsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -409,7 +409,7 @@ class ConfigurationsApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Configuration
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration
      */
     public function companyConfigurationsIdGet($id)
     {
@@ -426,7 +426,7 @@ class ConfigurationsApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\Configuration, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyConfigurationsIdGetWithHttpInfo($id)
     {
@@ -476,19 +476,19 @@ class ConfigurationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\Configuration',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration',
                 '/company/configurations/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\Configuration', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Configuration', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -505,7 +505,7 @@ class ConfigurationsApi
      * Spinen&#39;s PHP ConnectWise Client for Company API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
      * @param string $management_solution_name  (optional)
      * @param string $managed_identifier  (optional)
      * @param string $type  (optional)
@@ -514,7 +514,7 @@ class ConfigurationsApi
      * @param string $inactivate_configurations_matching_on  (optional)
      * @param int $inactive_configuration_status_id  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Configuration
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration
      */
     public function companyConfigurationsIdPatch($id, $operations, $management_solution_name = null, $managed_identifier = null, $type = null, $level = null, $child_configurations_matching_on = null, $inactivate_configurations_matching_on = null, $inactive_configuration_status_id = null)
     {
@@ -530,7 +530,7 @@ class ConfigurationsApi
      * Spinen&#39;s PHP ConnectWise Client for Company API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] $operations  (required)
      * @param string $management_solution_name  (optional)
      * @param string $managed_identifier  (optional)
      * @param string $type  (optional)
@@ -539,7 +539,7 @@ class ConfigurationsApi
      * @param string $inactivate_configurations_matching_on  (optional)
      * @param int $inactive_configuration_status_id  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\Configuration, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyConfigurationsIdPatchWithHttpInfo($id, $operations, $management_solution_name = null, $managed_identifier = null, $type = null, $level = null, $child_configurations_matching_on = null, $inactivate_configurations_matching_on = null, $inactive_configuration_status_id = null)
     {
@@ -626,19 +626,19 @@ class ConfigurationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\Configuration',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration',
                 '/company/configurations/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\Configuration', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Configuration', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -655,7 +655,7 @@ class ConfigurationsApi
      * Spinen&#39;s PHP ConnectWise Client for Company API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\Configuration $configuration  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration $configuration  (required)
      * @param string $management_solution_name  (optional)
      * @param string $managed_identifier  (optional)
      * @param string $type  (optional)
@@ -664,7 +664,7 @@ class ConfigurationsApi
      * @param string $inactivate_configurations_matching_on  (optional)
      * @param int $inactive_configuration_status_id  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Configuration
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration
      */
     public function companyConfigurationsIdPut($id, $configuration, $management_solution_name = null, $managed_identifier = null, $type = null, $level = null, $child_configurations_matching_on = null, $inactivate_configurations_matching_on = null, $inactive_configuration_status_id = null)
     {
@@ -680,7 +680,7 @@ class ConfigurationsApi
      * Spinen&#39;s PHP ConnectWise Client for Company API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Company\Model\Configuration $configuration  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration $configuration  (required)
      * @param string $management_solution_name  (optional)
      * @param string $managed_identifier  (optional)
      * @param string $type  (optional)
@@ -689,7 +689,7 @@ class ConfigurationsApi
      * @param string $inactivate_configurations_matching_on  (optional)
      * @param int $inactive_configuration_status_id  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\Configuration, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyConfigurationsIdPutWithHttpInfo($id, $configuration, $management_solution_name = null, $managed_identifier = null, $type = null, $level = null, $child_configurations_matching_on = null, $inactivate_configurations_matching_on = null, $inactive_configuration_status_id = null)
     {
@@ -776,19 +776,19 @@ class ConfigurationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\Configuration',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration',
                 '/company/configurations/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\Configuration', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Configuration', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -804,7 +804,7 @@ class ConfigurationsApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Company API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Company\Model\Configuration $configuration  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration $configuration  (required)
      * @param string $management_solution_name  (optional)
      * @param string $managed_identifier  (optional)
      * @param string $type  (optional)
@@ -813,7 +813,7 @@ class ConfigurationsApi
      * @param string $inactivate_configurations_matching_on  (optional)
      * @param int $inactive_configuration_status_id  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Configuration
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration
      */
     public function companyConfigurationsPost($configuration, $management_solution_name = null, $managed_identifier = null, $type = null, $level = null, $child_configurations_matching_on = null, $inactivate_configurations_matching_on = null, $inactive_configuration_status_id = null)
     {
@@ -828,7 +828,7 @@ class ConfigurationsApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Company API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Company\Model\Configuration $configuration  (required)
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration $configuration  (required)
      * @param string $management_solution_name  (optional)
      * @param string $managed_identifier  (optional)
      * @param string $type  (optional)
@@ -837,7 +837,7 @@ class ConfigurationsApi
      * @param string $inactivate_configurations_matching_on  (optional)
      * @param int $inactive_configuration_status_id  (optional)
      * @throws \Spinen\ConnectWise\Clients\Company\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Company\Model\Configuration, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration, HTTP status code, HTTP response headers (array of strings)
      */
     public function companyConfigurationsPostWithHttpInfo($configuration, $management_solution_name = null, $managed_identifier = null, $type = null, $level = null, $child_configurations_matching_on = null, $inactivate_configurations_matching_on = null, $inactive_configuration_status_id = null)
     {
@@ -912,19 +912,19 @@ class ConfigurationsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Company\Model\Configuration',
+                '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration',
                 '/company/configurations'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Model\Configuration', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Configuration', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Configuration', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

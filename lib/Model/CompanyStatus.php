@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -64,8 +64,8 @@ class CompanyStatus implements ArrayAccess
         'notification_message' => 'string',
         'custom_note_flag' => 'bool',
         'cancel_open_tracks_flag' => 'bool',
-        'track' => '\Spinen\ConnectWise\Clients\Company\Model\TrackReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Company\Model\Metadata'
+        'track' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TrackReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -415,7 +415,7 @@ class CompanyStatus implements ArrayAccess
 
     /**
      * Gets track
-     * @return \Spinen\ConnectWise\Clients\Company\Model\TrackReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TrackReference
      */
     public function getTrack()
     {
@@ -424,7 +424,7 @@ class CompanyStatus implements ArrayAccess
 
     /**
      * Sets track
-     * @param \Spinen\ConnectWise\Clients\Company\Model\TrackReference $track
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TrackReference $track
      * @return $this
      */
     public function setTrack($track)
@@ -436,7 +436,7 @@ class CompanyStatus implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata
      */
     public function getInfo()
     {
@@ -445,7 +445,7 @@ class CompanyStatus implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

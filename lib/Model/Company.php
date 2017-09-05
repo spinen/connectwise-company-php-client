@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -58,28 +58,28 @@ class Company implements ArrayAccess
         'id' => 'int',
         'identifier' => 'string',
         'name' => 'string',
-        'status' => '\Spinen\ConnectWise\Clients\Company\Model\CompanyStatusReference',
-        'type' => '\Spinen\ConnectWise\Clients\Company\Model\CompanyTypeReference',
+        'status' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatusReference',
+        'type' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTypeReference',
         'address_line1' => 'string',
         'address_line2' => 'string',
         'city' => 'string',
         'state' => 'string',
         'zip' => 'string',
-        'country' => '\Spinen\ConnectWise\Clients\Company\Model\CountryReference',
+        'country' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CountryReference',
         'phone_number' => 'string',
         'fax_number' => 'string',
         'website' => 'string',
         'territory_id' => 'int',
         'market_id' => 'int',
         'account_number' => 'string',
-        'default_contact' => '\Spinen\ConnectWise\Clients\Company\Model\ContactReference',
+        'default_contact' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference',
         'date_acquired' => '\DateTime',
-        'sic_code' => '\Spinen\ConnectWise\Clients\Company\Model\SicCodeReference',
-        'parent_company' => '\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
+        'sic_code' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SicCodeReference',
+        'parent_company' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
         'annual_revenue' => 'double',
         'number_of_employees' => 'int',
-        'ownership_type' => '\Spinen\ConnectWise\Clients\Company\Model\OwnershipTypeReference',
-        'time_zone' => '\Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference',
+        'ownership_type' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipTypeReference',
+        'time_zone' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference',
         'lead_source' => 'string',
         'lead_flag' => 'bool',
         'unsubscribe_flag' => 'bool',
@@ -96,25 +96,25 @@ class Company implements ArrayAccess
         'user_defined_field10' => 'string',
         'vendor_identifier' => 'string',
         'tax_identifier' => 'string',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Company\Model\TaxCodeReference',
-        'billing_terms' => '\Spinen\ConnectWise\Clients\Company\Model\BillingTermsReference',
-        'invoice_template' => '\Spinen\ConnectWise\Clients\Company\Model\InvoiceTemplateReference',
-        'pricing_schedule' => '\Spinen\ConnectWise\Clients\Company\Model\PricingScheduleReference',
-        'company_entity_type' => '\Spinen\ConnectWise\Clients\Company\Model\EntityTypeReference',
-        'bill_to_company' => '\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
-        'billing_site' => '\Spinen\ConnectWise\Clients\Company\Model\SiteReference',
-        'billing_contact' => '\Spinen\ConnectWise\Clients\Company\Model\ContactReference',
-        'invoice_delivery_method' => '\Spinen\ConnectWise\Clients\Company\Model\BillingDeliveryReference',
+        'tax_code' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TaxCodeReference',
+        'billing_terms' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\BillingTermsReference',
+        'invoice_template' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\InvoiceTemplateReference',
+        'pricing_schedule' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PricingScheduleReference',
+        'company_entity_type' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\EntityTypeReference',
+        'bill_to_company' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference',
+        'billing_site' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SiteReference',
+        'billing_contact' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference',
+        'invoice_delivery_method' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\BillingDeliveryReference',
         'invoice_to_email_address' => 'string',
         'invoice_cc_email_address' => 'string',
         'deleted_flag' => 'bool',
         'date_deleted' => '\DateTime',
         'deleted_by' => 'string',
-        'mobile_guid' => '\Spinen\ConnectWise\Clients\Company\Model\Guid',
-        'currency' => '\Spinen\ConnectWise\Clients\Company\Model\CurrencyReference',
-        'territory_manager' => '\Spinen\ConnectWise\Clients\Company\Model\MemberReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Company\Model\Metadata',
-        'custom_fields' => '\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]'
+        'mobile_guid' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid',
+        'currency' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CurrencyReference',
+        'territory_manager' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MemberReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata',
+        'custom_fields' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]'
     ];
 
     public static function swaggerTypes()
@@ -440,12 +440,6 @@ class Company implements ArrayAccess
             $invalid_properties[] = "invalid value for 'name', the character length must be smaller than or equal to 50.";
         }
 
-        if ($this->container['status'] === null) {
-            $invalid_properties[] = "'status' can't be null";
-        }
-        if ($this->container['type'] === null) {
-            $invalid_properties[] = "'type' can't be null";
-        }
         if (!is_null($this->container['address_line1']) && (strlen($this->container['address_line1']) > 50)) {
             $invalid_properties[] = "invalid value for 'address_line1', the character length must be smaller than or equal to 50.";
         }
@@ -551,12 +545,6 @@ class Company implements ArrayAccess
             return false;
         }
         if (strlen($this->container['name']) > 50) {
-            return false;
-        }
-        if ($this->container['status'] === null) {
-            return false;
-        }
-        if ($this->container['type'] === null) {
             return false;
         }
         if (strlen($this->container['address_line1']) > 50) {
@@ -699,7 +687,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyStatusReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatusReference
      */
     public function getStatus()
     {
@@ -708,7 +696,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -720,7 +708,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyTypeReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTypeReference
      */
     public function getType()
     {
@@ -729,7 +717,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -750,7 +738,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets address_line1
-     * @param string $address_line1 At least one address field is required -- addressLine1, addressLine2, city, state, and/or zip
+     * @param string $address_line1 At least one address field is required -- addressLine1, addressLine2, city, state, zip and/or country
      * @return $this
      */
     public function setAddressLine1($address_line1)
@@ -775,7 +763,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets address_line2
-     * @param string $address_line2 At least one address field is required -- addressLine1, addressLine2, city, state, and/or zip
+     * @param string $address_line2 At least one address field is required -- addressLine1, addressLine2, city, state, zip and/or country
      * @return $this
      */
     public function setAddressLine2($address_line2)
@@ -800,7 +788,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets city
-     * @param string $city At least one address field is required -- addressLine1, addressLine2, city, state, and/or zip
+     * @param string $city At least one address field is required -- addressLine1, addressLine2, city, state, zip and/or country
      * @return $this
      */
     public function setCity($city)
@@ -825,7 +813,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets state
-     * @param string $state At least one address field is required -- addressLine1, addressLine2, city, state, and/or zip
+     * @param string $state At least one address field is required -- addressLine1, addressLine2, city, state, zip and/or country
      * @return $this
      */
     public function setState($state)
@@ -850,7 +838,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets zip
-     * @param string $zip At least one address field is required -- addressLine1, addressLine2, city, state, and/or zip
+     * @param string $zip At least one address field is required -- addressLine1, addressLine2, city, state, zip and/or country
      * @return $this
      */
     public function setZip($zip)
@@ -866,7 +854,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets country
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CountryReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CountryReference
      */
     public function getCountry()
     {
@@ -875,7 +863,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets country
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CountryReference $country
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CountryReference $country At least one address field is required -- addressLine1, addressLine2, city, state, zip and/or country
      * @return $this
      */
     public function setCountry($country)
@@ -1029,7 +1017,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets default_contact
-     * @return \Spinen\ConnectWise\Clients\Company\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference
      */
     public function getDefaultContact()
     {
@@ -1038,7 +1026,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets default_contact
-     * @param \Spinen\ConnectWise\Clients\Company\Model\ContactReference $default_contact
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference $default_contact
      * @return $this
      */
     public function setDefaultContact($default_contact)
@@ -1071,7 +1059,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets sic_code
-     * @return \Spinen\ConnectWise\Clients\Company\Model\SicCodeReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SicCodeReference
      */
     public function getSicCode()
     {
@@ -1080,7 +1068,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets sic_code
-     * @param \Spinen\ConnectWise\Clients\Company\Model\SicCodeReference $sic_code
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SicCodeReference $sic_code
      * @return $this
      */
     public function setSicCode($sic_code)
@@ -1092,7 +1080,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets parent_company
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference
      */
     public function getParentCompany()
     {
@@ -1101,7 +1089,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets parent_company
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyReference $parent_company
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference $parent_company
      * @return $this
      */
     public function setParentCompany($parent_company)
@@ -1155,7 +1143,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets ownership_type
-     * @return \Spinen\ConnectWise\Clients\Company\Model\OwnershipTypeReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipTypeReference
      */
     public function getOwnershipType()
     {
@@ -1164,7 +1152,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets ownership_type
-     * @param \Spinen\ConnectWise\Clients\Company\Model\OwnershipTypeReference $ownership_type
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\OwnershipTypeReference $ownership_type
      * @return $this
      */
     public function setOwnershipType($ownership_type)
@@ -1176,7 +1164,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets time_zone
-     * @return \Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference
      */
     public function getTimeZone()
     {
@@ -1185,7 +1173,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets time_zone
-     * @param \Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference $time_zone
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TimeZoneReference $time_zone
      * @return $this
      */
     public function setTimeZone($time_zone)
@@ -1581,7 +1569,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Company\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -1590,7 +1578,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Company\Model\TaxCodeReference $tax_code New companies will be created with the default tax code unless otherwise specified.
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TaxCodeReference $tax_code New companies will be created with the default tax code unless otherwise specified.
      * @return $this
      */
     public function setTaxCode($tax_code)
@@ -1602,7 +1590,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets billing_terms
-     * @return \Spinen\ConnectWise\Clients\Company\Model\BillingTermsReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\BillingTermsReference
      */
     public function getBillingTerms()
     {
@@ -1611,7 +1599,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets billing_terms
-     * @param \Spinen\ConnectWise\Clients\Company\Model\BillingTermsReference $billing_terms
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\BillingTermsReference $billing_terms
      * @return $this
      */
     public function setBillingTerms($billing_terms)
@@ -1623,7 +1611,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets invoice_template
-     * @return \Spinen\ConnectWise\Clients\Company\Model\InvoiceTemplateReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\InvoiceTemplateReference
      */
     public function getInvoiceTemplate()
     {
@@ -1632,7 +1620,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets invoice_template
-     * @param \Spinen\ConnectWise\Clients\Company\Model\InvoiceTemplateReference $invoice_template
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\InvoiceTemplateReference $invoice_template
      * @return $this
      */
     public function setInvoiceTemplate($invoice_template)
@@ -1644,7 +1632,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets pricing_schedule
-     * @return \Spinen\ConnectWise\Clients\Company\Model\PricingScheduleReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PricingScheduleReference
      */
     public function getPricingSchedule()
     {
@@ -1653,7 +1641,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets pricing_schedule
-     * @param \Spinen\ConnectWise\Clients\Company\Model\PricingScheduleReference $pricing_schedule
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PricingScheduleReference $pricing_schedule
      * @return $this
      */
     public function setPricingSchedule($pricing_schedule)
@@ -1665,7 +1653,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets company_entity_type
-     * @return \Spinen\ConnectWise\Clients\Company\Model\EntityTypeReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\EntityTypeReference
      */
     public function getCompanyEntityType()
     {
@@ -1674,7 +1662,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets company_entity_type
-     * @param \Spinen\ConnectWise\Clients\Company\Model\EntityTypeReference $company_entity_type Based on CompanyEntityType Report
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\EntityTypeReference $company_entity_type Based on CompanyEntityType Report
      * @return $this
      */
     public function setCompanyEntityType($company_entity_type)
@@ -1686,7 +1674,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets bill_to_company
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference
      */
     public function getBillToCompany()
     {
@@ -1695,7 +1683,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets bill_to_company
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CompanyReference $bill_to_company
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyReference $bill_to_company
      * @return $this
      */
     public function setBillToCompany($bill_to_company)
@@ -1707,7 +1695,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets billing_site
-     * @return \Spinen\ConnectWise\Clients\Company\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SiteReference
      */
     public function getBillingSite()
     {
@@ -1716,7 +1704,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets billing_site
-     * @param \Spinen\ConnectWise\Clients\Company\Model\SiteReference $billing_site
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\SiteReference $billing_site
      * @return $this
      */
     public function setBillingSite($billing_site)
@@ -1728,7 +1716,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets billing_contact
-     * @return \Spinen\ConnectWise\Clients\Company\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference
      */
     public function getBillingContact()
     {
@@ -1737,7 +1725,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets billing_contact
-     * @param \Spinen\ConnectWise\Clients\Company\Model\ContactReference $billing_contact
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactReference $billing_contact
      * @return $this
      */
     public function setBillingContact($billing_contact)
@@ -1749,7 +1737,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets invoice_delivery_method
-     * @return \Spinen\ConnectWise\Clients\Company\Model\BillingDeliveryReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\BillingDeliveryReference
      */
     public function getInvoiceDeliveryMethod()
     {
@@ -1758,7 +1746,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets invoice_delivery_method
-     * @param \Spinen\ConnectWise\Clients\Company\Model\BillingDeliveryReference $invoice_delivery_method
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\BillingDeliveryReference $invoice_delivery_method
      * @return $this
      */
     public function setInvoiceDeliveryMethod($invoice_delivery_method)
@@ -1875,7 +1863,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets mobile_guid
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Guid
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid
      */
     public function getMobileGuid()
     {
@@ -1884,7 +1872,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets mobile_guid
-     * @param \Spinen\ConnectWise\Clients\Company\Model\Guid $mobile_guid
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Guid $mobile_guid
      * @return $this
      */
     public function setMobileGuid($mobile_guid)
@@ -1896,7 +1884,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets currency
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CurrencyReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CurrencyReference
      */
     public function getCurrency()
     {
@@ -1905,7 +1893,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets currency
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CurrencyReference $currency
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CurrencyReference $currency
      * @return $this
      */
     public function setCurrency($currency)
@@ -1917,7 +1905,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets territory_manager
-     * @return \Spinen\ConnectWise\Clients\Company\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MemberReference
      */
     public function getTerritoryManager()
     {
@@ -1926,7 +1914,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets territory_manager
-     * @param \Spinen\ConnectWise\Clients\Company\Model\MemberReference $territory_manager
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\MemberReference $territory_manager
      * @return $this
      */
     public function setTerritoryManager($territory_manager)
@@ -1938,7 +1926,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata
      */
     public function getInfo()
     {
@@ -1947,7 +1935,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
@@ -1959,7 +1947,7 @@ class Company implements ArrayAccess
 
     /**
      * Gets custom_fields
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[]
      */
     public function getCustomFields()
     {
@@ -1968,7 +1956,7 @@ class Company implements ArrayAccess
 
     /**
      * Sets custom_fields
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[] $custom_fields
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CustomFieldValue[] $custom_fields
      * @return $this
      */
     public function setCustomFields($custom_fields)

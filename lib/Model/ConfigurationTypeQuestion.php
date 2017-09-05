@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -65,7 +65,7 @@ class ConfigurationTypeQuestion implements ArrayAccess
         'required_flag' => 'bool',
         'inactive_flag' => 'bool',
         'possible_answers' => 'string[]',
-        '_info' => '\Spinen\ConnectWise\Clients\Company\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -156,7 +156,7 @@ class ConfigurationTypeQuestion implements ArrayAccess
     const FIELD_TYPE_TEXT_AREA = 'TextArea';
     const FIELD_TYPE_PASSWORD = 'Password';
     const ENTRY_TYPE_ENTRY_FIELD = 'EntryField';
-    const ENTRY_TYPE_LIST = 'List';
+    const ENTRY_TYPE__LIST = 'List';
     const ENTRY_TYPE_OPTION = 'Option';
     
 
@@ -190,7 +190,7 @@ class ConfigurationTypeQuestion implements ArrayAccess
     {
         return [
             self::ENTRY_TYPE_ENTRY_FIELD,
-            self::ENTRY_TYPE_LIST,
+            self::ENTRY_TYPE__LIST,
             self::ENTRY_TYPE_OPTION,
         ];
     }
@@ -533,7 +533,7 @@ class ConfigurationTypeQuestion implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Company\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata
      */
     public function getInfo()
     {
@@ -542,7 +542,7 @@ class ConfigurationTypeQuestion implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

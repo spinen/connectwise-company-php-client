@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyCompaniesStatusesCountGet**
-> \Spinen\ConnectWise\Clients\Company\Model\Count companyCompaniesStatusesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyCompaniesStatusesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesStatusesGet**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanyStatus[] companyCompaniesStatusesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus[] companyCompaniesStatusesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus[]**](../Model/CompanyStatus.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus[]**](../Model/CompanyStatus.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesStatusesIdGet**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanyStatus companyCompaniesStatusesIdGet($id)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus companyCompaniesStatusesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/CompanyStatus.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/CompanyStatus.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesStatusesIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanyStatus companyCompaniesStatusesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus companyCompaniesStatusesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyStatusesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyCompaniesStatusesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/CompanyStatus.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/CompanyStatus.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesStatusesIdPut**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanyStatus companyCompaniesStatusesIdPut($id, $company_status)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus companyCompaniesStatusesIdPut($id, $company_status)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyStatusesApi();
 $id = 56; // int | 
-$company_status = new \Spinen\ConnectWise\Clients\Company\Model\CompanyStatus(); // \Spinen\ConnectWise\Clients\Company\Model\CompanyStatus | 
+$company_status = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus | 
 
 try {
     $result = $api_instance->companyCompaniesStatusesIdPut($id, $company_status);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **company_status** | [**\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus.md)|  |
+ **company_status** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/CompanyStatus.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/CompanyStatus.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesStatusesPost**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanyStatus companyCompaniesStatusesPost($company_status)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus companyCompaniesStatusesPost($company_status)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanyStatusesApi();
-$company_status = new \Spinen\ConnectWise\Clients\Company\Model\CompanyStatus(); // \Spinen\ConnectWise\Clients\Company\Model\CompanyStatus | 
+$company_status = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus | 
 
 try {
     $result = $api_instance->companyCompaniesStatusesPost($company_status);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **company_status** | [**\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus.md)|  |
+ **company_status** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/CompanyStatus.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanyStatus**](../Model/CompanyStatus.md)
 
 ### Authorization
 

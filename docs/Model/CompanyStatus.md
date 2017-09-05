@@ -12,8 +12,8 @@ Name | Type | Description | Notes
 **notification_message** | **string** |  | [optional] 
 **custom_note_flag** | **bool** |  | [optional] 
 **cancel_open_tracks_flag** | **bool** |  | [optional] 
-**track** | [**\Spinen\ConnectWise\Clients\Company\Model\TrackReference**](TrackReference.md) |  | [optional] 
-**_info** | [**\Spinen\ConnectWise\Clients\Company\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
+**track** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\TrackReference**](TrackReference.md) |  | [optional] 
+**_info** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

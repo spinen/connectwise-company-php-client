@@ -33,7 +33,7 @@ namespace Spinen\ConnectWise\Clients\Company;
  * CountryReferenceTest Class Doc Comment
  *
  * @category    Class */
-// * @description CountryReference
+// * @description At least one address field is required -- addressLine1, addressLine2, city, state, zip and/or country
 /**
  * @package     Spinen\ConnectWise\Clients\Company
  * @author      Swagger Codegen team

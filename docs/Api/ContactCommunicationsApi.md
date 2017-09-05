@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdCommunicationsCommunicationIdGet**
-> \Spinen\ConnectWise\Clients\Company\Model\ContactCommunication companyContactsIdCommunicationsCommunicationIdGet($id, $communication_id)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication companyContactsIdCommunicationsCommunicationIdGet($id, $communication_id)
 
 
 
@@ -102,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/ContactCommunication.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/ContactCommunication.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdCommunicationsCommunicationIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Model\ContactCommunication companyContactsIdCommunicationsCommunicationIdPatch($id, $communication_id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication companyContactsIdCommunicationsCommunicationIdPatch($id, $communication_id, $operations)
 
 
 
@@ -134,7 +134,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ContactCommunicationsApi();
 $id = 56; // int | 
 $communication_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyContactsIdCommunicationsCommunicationIdPatch($id, $communication_id, $operations);
@@ -151,11 +151,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **communication_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/ContactCommunication.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/ContactCommunication.md)
 
 ### Authorization
 
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdCommunicationsCommunicationIdPut**
-> \Spinen\ConnectWise\Clients\Company\Model\ContactCommunication companyContactsIdCommunicationsCommunicationIdPut($id, $communication_id, $contact_communication)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication companyContactsIdCommunicationsCommunicationIdPut($id, $communication_id, $contact_communication)
 
 
 
@@ -187,7 +187,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ContactCommunicationsApi();
 $id = 56; // int | 
 $communication_id = 56; // int | 
-$contact_communication = new \Spinen\ConnectWise\Clients\Company\Model\ContactCommunication(); // \Spinen\ConnectWise\Clients\Company\Model\ContactCommunication | 
+$contact_communication = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication | 
 
 try {
     $result = $api_instance->companyContactsIdCommunicationsCommunicationIdPut($id, $communication_id, $contact_communication);
@@ -204,11 +204,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **communication_id** | **int**|  |
- **contact_communication** | [**\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication.md)|  |
+ **contact_communication** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/ContactCommunication.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/ContactCommunication.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdCommunicationsCountGet**
-> \Spinen\ConnectWise\Clients\Company\Model\Count companyContactsIdCommunicationsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyContactsIdCommunicationsCountGet($id, $conditions)
 
 
 
@@ -259,7 +259,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdCommunicationsGet**
-> \Spinen\ConnectWise\Clients\Company\Model\ContactCommunication[] companyContactsIdCommunicationsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication[] companyContactsIdCommunicationsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication[]**](../Model/ContactCommunication.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication[]**](../Model/ContactCommunication.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyContactsIdCommunicationsPost**
-> \Spinen\ConnectWise\Clients\Company\Model\ContactCommunication companyContactsIdCommunicationsPost($id, $contact_communication)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication companyContactsIdCommunicationsPost($id, $contact_communication)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\ContactCommunicationsApi();
 $id = 56; // int | 
-$contact_communication = new \Spinen\ConnectWise\Clients\Company\Model\ContactCommunication(); // \Spinen\ConnectWise\Clients\Company\Model\ContactCommunication | 
+$contact_communication = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication | 
 
 try {
     $result = $api_instance->companyContactsIdCommunicationsPost($id, $contact_communication);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **contact_communication** | [**\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication.md)|  |
+ **contact_communication** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/ContactCommunication.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\ContactCommunication**](../Model/ContactCommunication.md)
 
 ### Authorization
 

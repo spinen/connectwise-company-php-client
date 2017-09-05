@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **companyCompaniesIdSitesCountGet**
-> \Spinen\ConnectWise\Clients\Company\Model\Count companyCompaniesIdSitesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count companyCompaniesIdSitesCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdSitesGet**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanySite[] companyCompaniesIdSitesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite[] companyCompaniesIdSitesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanySite[]**](../Model/CompanySite.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite[]**](../Model/CompanySite.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdSitesPost**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanySite companyCompaniesIdSitesPost($id, $site)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite companyCompaniesIdSitesPost($id, $site)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanySitesApi();
 $id = 56; // int | 
-$site = new \Spinen\ConnectWise\Clients\Company\Model\CompanySite(); // \Spinen\ConnectWise\Clients\Company\Model\CompanySite | 
+$site = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite | 
 
 try {
     $result = $api_instance->companyCompaniesIdSitesPost($id, $site);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **site** | [**\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/\Spinen\ConnectWise\Clients\Company\Model\CompanySite.md)|  |
+ **site** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/CompanySite.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/CompanySite.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdSitesSiteIdGet**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanySite companyCompaniesIdSitesSiteIdGet($id, $site_id)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite companyCompaniesIdSitesSiteIdGet($id, $site_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/CompanySite.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/CompanySite.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdSitesSiteIdPatch**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanySite companyCompaniesIdSitesSiteIdPatch($id, $site_id, $operations)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite companyCompaniesIdSitesSiteIdPatch($id, $site_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanySitesApi();
 $id = 56; // int | 
 $site_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->companyCompaniesIdSitesSiteIdPatch($id, $site_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **site_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/CompanySite.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/CompanySite.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **companyCompaniesIdSitesSiteIdPut**
-> \Spinen\ConnectWise\Clients\Company\Model\CompanySite companyCompaniesIdSitesSiteIdPut($id, $site_id, $site)
+> \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite companyCompaniesIdSitesSiteIdPut($id, $site_id, $site)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Company\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Company\Api\CompanySitesApi();
 $id = 56; // int | 
 $site_id = 56; // int | 
-$site = new \Spinen\ConnectWise\Clients\Company\Model\CompanySite(); // \Spinen\ConnectWise\Clients\Company\Model\CompanySite | 
+$site = new \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite(); // \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite | 
 
 try {
     $result = $api_instance->companyCompaniesIdSitesSiteIdPut($id, $site_id, $site);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **site_id** | **int**|  |
- **site** | [**\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/\Spinen\ConnectWise\Clients\Company\Model\CompanySite.md)|  |
+ **site** | [**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/CompanySite.md)
+[**\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CompanySite**](../Model/CompanySite.md)
 
 ### Authorization
 

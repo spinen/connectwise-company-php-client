@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Company\Model;
+namespace Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model;
 
 use \ArrayAccess;
 
@@ -56,7 +56,7 @@ class ContactCommunicationItem implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'type' => '\Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference',
+        'type' => '\Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference',
         'value' => 'string',
         'extension' => 'string',
         'default_flag' => 'bool',
@@ -245,7 +245,7 @@ class ContactCommunicationItem implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference
+     * @return \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference
      */
     public function getType()
     {
@@ -254,7 +254,7 @@ class ContactCommunicationItem implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Company\Spinen\ConnectWise\Clients\Company\Model\CommunicationTypeReference $type
      * @return $this
      */
     public function setType($type)
